@@ -36,8 +36,14 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
+              "Assets/Scenes/Bestiary.unity",
               "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -51,8 +57,14 @@
           {
             "name": "AudioListener",
             "scenes": [
+              "Assets/Scenes/Bestiary.unity",
               "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -89,8 +101,14 @@
           {
             "name": "Camera",
             "scenes": [
+              "Assets/Scenes/Bestiary.unity",
               "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -110,8 +128,14 @@
           {
             "name": "Cubemap",
             "scenes": [
+              "Assets/Scenes/Bestiary.unity",
               "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -131,8 +155,14 @@
           {
             "name": "EditorExtension",
             "scenes": [
+              "Assets/Scenes/Bestiary.unity",
               "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -146,8 +176,14 @@
           {
             "name": "GameObject",
             "scenes": [
+              "Assets/Scenes/Bestiary.unity",
               "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -173,8 +209,14 @@
           {
             "name": "LevelGameManager",
             "scenes": [
+              "Assets/Scenes/Bestiary.unity",
               "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -182,8 +224,14 @@
           {
             "name": "Light",
             "scenes": [
+              "Assets/Scenes/Bestiary.unity",
               "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -203,8 +251,14 @@
           {
             "name": "LightmapSettings",
             "scenes": [
+              "Assets/Scenes/Bestiary.unity",
               "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -218,8 +272,14 @@
           {
             "name": "Material",
             "scenes": [
+              "Assets/Scenes/Bestiary.unity",
               "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -245,7 +305,14 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Bestiary.unity",
+              "Assets/Scenes/Dormitory.unity",
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -259,7 +326,14 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Bestiary.unity",
+              "Assets/Scenes/Dormitory.unity",
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -267,8 +341,14 @@
           {
             "name": "NamedObject",
             "scenes": [
+              "Assets/Scenes/Bestiary.unity",
               "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -300,7 +380,14 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Bestiary.unity",
+              "Assets/Scenes/Dormitory.unity",
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -314,8 +401,14 @@
           {
             "name": "RenderSettings",
             "scenes": [
+              "Assets/Scenes/Bestiary.unity",
               "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -349,8 +442,14 @@
           {
             "name": "Shader",
             "scenes": [
+              "Assets/Scenes/Bestiary.unity",
               "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -370,7 +469,14 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Bestiary.unity",
+              "Assets/Scenes/Dormitory.unity",
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -690,7 +796,14 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Bestiary.unity",
+              "Assets/Scenes/Dormitory.unity",
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -733,7 +846,14 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Bestiary.unity",
+              "Assets/Scenes/Dormitory.unity",
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -747,7 +867,14 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Bestiary.unity",
+              "Assets/Scenes/Dormitory.unity",
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
             "icon": null

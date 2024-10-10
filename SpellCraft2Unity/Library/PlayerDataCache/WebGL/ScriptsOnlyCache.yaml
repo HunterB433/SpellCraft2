@@ -121,29 +121,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1580}
+      Script: {instanceID: 1600}
     - Class: 114
-      Script: {instanceID: 2158}
+      Script: {instanceID: 2180}
     - Class: 114
-      Script: {instanceID: 2576}
+      Script: {instanceID: 2598}
     - Class: 114
-      Script: {instanceID: 2778}
+      Script: {instanceID: 2800}
     - Class: 114
-      Script: {instanceID: 3066}
+      Script: {instanceID: 3088}
     - Class: 114
-      Script: {instanceID: 4042}
+      Script: {instanceID: 4056}
     - Class: 114
-      Script: {instanceID: 4292}
+      Script: {instanceID: 4306}
     - Class: 114
-      Script: {instanceID: 4980}
+      Script: {instanceID: 4996}
     - Class: 114
-      Script: {instanceID: 5522}
+      Script: {instanceID: 5540}
     - Class: 114
-      Script: {instanceID: 5672}
+      Script: {instanceID: 5690}
     - Class: 114
-      Script: {instanceID: 5986}
+      Script: {instanceID: 6004}
     - Class: 114
-      Script: {instanceID: 25620}
+      Script: {instanceID: 7412}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -951,6 +951,12 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 91fdb0a200e45a9d12372594ece0fd1a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SceneController
+  - hash:
+      serializedVersion: 2
       Hash: ff76cf6cf52b4db7b95af6ffadca9288
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -985,14 +991,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 91fdb0a200e45a9d12372594ece0fd1a
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: SceneController
   platform: 20
   scenePathNames:
   - Assets/Scenes/MainDorm.unity
   - Assets/Scenes/Dormitory.unity
-  playerPath: C:/Users/hunte/Desktop/My project/MyBuilds
+  playerPath: C:/Users/hunte/Desktop/SpellCraft2/docs

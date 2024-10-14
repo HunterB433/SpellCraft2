@@ -15,7 +15,7 @@ C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62702
+57198
 Successfully changed project path to: C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity
 C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12028] Host "[IP] 192.168.12.35 [Port] 0 [Flags] 2 [Guid] 1421860684 [EditorId] 1421860684 [Version] 1048832 [Id] WindowsEditor(7,HuntLab) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [30972] Host "[IP] 10.18.92.91 [Port] 0 [Flags] 2 [Guid] 1252888183 [EditorId] 1252888183 [Version] 1048832 [Id] WindowsEditor(7,HuntLab) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12028] Host "[IP] 192.168.12.35 [Port] 0 [Flags] 2 [Guid] 1421860684 [EditorId] 1421860684 [Version] 1048832 [Id] WindowsEditor(7,HuntLab) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30972] Host "[IP] 10.18.92.91 [Port] 0 [Flags] 2 [Guid] 1252888183 [EditorId] 1252888183 [Version] 1048832 [Id] WindowsEditor(7,HuntLab) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 46.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.29f1 (8d510ca76d2b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.021110 seconds.
-- Loaded All Assemblies, in  1.577 seconds
+Registered in 0.007678 seconds.
+- Loaded All Assemblies, in  0.388 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.366 seconds
-Domain Reload Profiling: 1936ms
-	BeginReloadAssembly (321ms)
+- Finished resetting the current domain, in  0.254 seconds
+Domain Reload Profiling: 640ms
+	BeginReloadAssembly (149ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (78ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (174ms)
-	LoadAllAssembliesAndSetupDomain (977ms)
-		LoadAssemblies (318ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (134ms)
+		LoadAssemblies (146ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (974ms)
-			TypeCache.Refresh (972ms)
-				TypeCache.ScanAssembly (260ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (118ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (367ms)
+	FinalizeReload (254ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (284ms)
+		SetupLoadedEditorAssemblies (202ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (188ms)
-			ProcessInitializeOnLoadMethodAttributes (72ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (141ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 1936ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.031 seconds
-Refreshing native plugins compatible for Editor in 4.88 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.694 seconds
+Refreshing native plugins compatible for Editor in 4.67 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.791 seconds
-Domain Reload Profiling: 1819ms
-	BeginReloadAssembly (156ms)
+- Finished resetting the current domain, in  0.591 seconds
+Domain Reload Profiling: 1283ms
+	BeginReloadAssembly (179ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (781ms)
-		LoadAssemblies (681ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (430ms)
+		LoadAssemblies (362ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (196ms)
-			TypeCache.Refresh (172ms)
-				TypeCache.ScanAssembly (156ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (141ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (792ms)
+	FinalizeReload (591ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (611ms)
+		SetupLoadedEditorAssemblies (440ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (481ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (345ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 7.46 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 3.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3108 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 33 unused Assets / (57.7 KB). Loaded Objects now: 3569.
 Memory consumption went from 123.7 MB to 123.6 MB.
-Total: 7.554200 ms (FindLiveObjects: 0.368300 ms CreateObjectMapping: 0.124300 ms MarkObjects: 6.768400 ms  DeleteObjects: 0.291200 ms)
+Total: 2.961100 ms (FindLiveObjects: 0.318200 ms CreateObjectMapping: 0.126700 ms MarkObjects: 2.382700 ms  DeleteObjects: 0.131700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,33 +184,1273 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 776916.169925 seconds.
-  path: Assets/Makeshift Images/SpellCraft/GreenHouse 1.png
-  artifactKey: Guid(c43f31680c4d60344a66e539d24a8e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Makeshift Images/SpellCraft/GreenHouse 1.png using Guid(c43f31680c4d60344a66e539d24a8e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532dcbc80a1e4403da4bde90cf9c12a9') in 0.140562 seconds
+  Time since last request: 814405.622092 seconds.
+  path: Assets/Makeshift Images/SpellCraft
+  artifactKey: Guid(26fab2bfd7e0bb14f9556a4f4d4226a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft using Guid(26fab2bfd7e0bb14f9556a4f4d4226a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa96d5555b9714c782e41a3c4124361') in 0.006479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 415.056915 seconds.
+  path: Assets/Makeshift Images/SpellCraft/Dorm (8).png
+  artifactKey: Guid(0a76a712454ee034297d3067f1f4509d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/Dorm (8).png using Guid(0a76a712454ee034297d3067f1f4509d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5945814b09900b40f09a08f6d7558eb7') in 0.075611 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 248.520558 seconds.
-  path: Assets/Makeshift Images/SpellCraft/GreenHouse 8.png
-  artifactKey: Guid(79df97562be242c4aa63097f98cc2f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Makeshift Images/SpellCraft/GreenHouse 8.png using Guid(79df97562be242c4aa63097f98cc2f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bc1df2adacc79fa6fc43d58ad0dfbd') in 0.031822 seconds
+  Time since last request: 0.425866 seconds.
+  path: Assets/Makeshift Images/SpellCraft/Dorm (9).png
+  artifactKey: Guid(8319a7511c4abba488bac1f9482be3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/Dorm (9).png using Guid(8319a7511c4abba488bac1f9482be3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4a0b082c6af550e642fe2b5046289d') in 0.016468 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 11.690291 seconds.
-  path: Assets/Makeshift Images/SpellCraft/GreenHouse 1.png
-  artifactKey: Guid(c43f31680c4d60344a66e539d24a8e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Makeshift Images/SpellCraft/GreenHouse 1.png using Guid(c43f31680c4d60344a66e539d24a8e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b0fa8510a2cf5e979cb7a76e4787ef') in 0.105028 seconds
+  Time since last request: 8.054569 seconds.
+  path: Assets/Makeshift Images/SpellCraft/Dorm
+  artifactKey: Guid(1658e71d91ec2c240b04d69cdc785460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/Dorm using Guid(1658e71d91ec2c240b04d69cdc785460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66c46eb24cc670b6e47c7c3340fbcba') in 0.001208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.919796 seconds.
+  path: Assets/Makeshift Images/SpellCraft/Dorm/New Folder
+  artifactKey: Guid(d075ccbc6a4a0b04ba18af211973fb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/Dorm/New Folder using Guid(d075ccbc6a4a0b04ba18af211973fb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46813b08f8642639f572cae6b5ac24df') in 0.000535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.799924 seconds.
+  path: Assets/Makeshift Images/SpellCraft/Dueling
+  artifactKey: Guid(d075ccbc6a4a0b04ba18af211973fb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/Dueling using Guid(d075ccbc6a4a0b04ba18af211973fb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049e993e557afcaa04aa2e29cb16360e') in 0.001094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.025608 seconds.
+  path: Assets/Makeshift Images/SpellCraft/Dueling.png
+  artifactKey: Guid(f29ac9e2e8b27fb46a6fadb15c099140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/Dueling.png using Guid(f29ac9e2e8b27fb46a6fadb15c099140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8c8b2633110611f3ee8f13f1d30840') in 0.025643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.835374 seconds.
+  path: Assets/Makeshift Images/SpellCraft/Dungeon
+  artifactKey: Guid(8622e345b9fb7684ead2bbbe8c97b21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/Dungeon using Guid(8622e345b9fb7684ead2bbbe8c97b21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6af20cb5a6856eea68d4f75671fe65') in 0.001217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.031851 seconds.
+  path: Assets/Makeshift Images/SpellCraft/Dungeon (5).png
+  artifactKey: Guid(ed27275edd10bcf43b61a325268df415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/Dungeon (5).png using Guid(ed27275edd10bcf43b61a325268df415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b1a87843f86fd8916269e38eba1c99') in 0.019052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.984647 seconds.
+  path: Assets/Makeshift Images/SpellCraft/Dungeon (1).png
+  artifactKey: Guid(4e4d7009b6f219b41a2be0d43ee95c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/Dungeon (1).png using Guid(4e4d7009b6f219b41a2be0d43ee95c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e9222533dbf75e97484d19d4ccffff') in 0.018174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.862803 seconds.
+  path: Assets/Makeshift Images/SpellCraft/Dungeon (9).png
+  artifactKey: Guid(7d4b863eb166d0748bf22a7a4825e809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/Dungeon (9).png using Guid(7d4b863eb166d0748bf22a7a4825e809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d8a2f6b13dedbeefaeee94be9438bb') in 0.019451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.818249 seconds.
+  path: Assets/Makeshift Images/SpellCraft/Dungeon (19).png
+  artifactKey: Guid(f6b7ec44d736d5e4e9d748608615d859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/Dungeon (19).png using Guid(f6b7ec44d736d5e4e9d748608615d859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f1788c25a175b7d59a250d2804beca') in 0.019283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.109881 seconds.
+  path: Assets/Makeshift Images/SpellCraft/GreenHouse (3).png
+  artifactKey: Guid(2bd3306848b162745a8484182981f935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/GreenHouse (3).png using Guid(2bd3306848b162745a8484182981f935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8cb421bb981b010fb4d69e8b371109') in 0.022212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 12.254965 seconds.
+  path: Assets/Makeshift Images/SpellCraft/GreenHouse
+  artifactKey: Guid(638049a67e5640d4b86a8c3afd61f4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/GreenHouse using Guid(638049a67e5640d4b86a8c3afd61f4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e760873f6dcda7458760e845f1da0b14') in 0.001171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.041611 seconds.
+  path: Assets/Makeshift Images/SpellCraft/GreenHouse (8).png
+  artifactKey: Guid(9a38c893ffa0da047b571edc801c33a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/GreenHouse (8).png using Guid(9a38c893ffa0da047b571edc801c33a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66e0c1dfeb1b202c91d4993689145df') in 0.016037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.837533 seconds.
+  path: Assets/Makeshift Images/SpellCraft/GreenHouse (1).png
+  artifactKey: Guid(99ad76485659fac4db6c4577f24835b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/GreenHouse (1).png using Guid(99ad76485659fac4db6c4577f24835b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439b52bd0dad3f035c751cb5e4ff2dfc') in 0.018899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.440485 seconds.
+  path: Assets/Makeshift Images/SpellCraft/GreenHouse (4).png
+  artifactKey: Guid(25354d59fde77454dbac345785ccb5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/GreenHouse (4).png using Guid(25354d59fde77454dbac345785ccb5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df67536570f7c0717e0f5f385477614') in 0.014294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.536024 seconds.
+  path: Assets/Scenes/GreenHouse.unity
+  artifactKey: Guid(c25e8bfec9e9ff44fa1a62b9ac56b08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GreenHouse.unity using Guid(c25e8bfec9e9ff44fa1a62b9ac56b08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8330d5b961cb00b1d779807c690542') in 0.001840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 37.395343 seconds.
+  path: Assets/Makeshift Images/SpellCraft/HomeScreen (2).png
+  artifactKey: Guid(53a024cae13db6940bc54fe89643f644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/HomeScreen (2).png using Guid(53a024cae13db6940bc54fe89643f644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7987cc7fdd10cd4e76a669145cb52100') in 0.019502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.776307 seconds.
+  path: Assets/Makeshift Images/SpellCraft/SpellLibrary (2).png
+  artifactKey: Guid(281496062ca5f214698fcaad5ca543b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/SpellLibrary (2).png using Guid(281496062ca5f214698fcaad5ca543b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8607026557d04e09e7e774490ac64f0c') in 0.023925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 22.279743 seconds.
+  path: Assets/Makeshift Images/SpellCraft/HomeScreen
+  artifactKey: Guid(1050fac9feacbb24aa354747e222ed03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/HomeScreen using Guid(1050fac9feacbb24aa354747e222ed03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea67147c08fe4769bdddf5894d12df6b') in 0.000768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.698024 seconds.
+  path: Assets/Makeshift Images/SpellCraft/MainDorm
+  artifactKey: Guid(dd0f360fbba29b64d8c4a3c54669bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/MainDorm using Guid(dd0f360fbba29b64d8c4a3c54669bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778083201649176e25abf95afca35e49') in 0.000595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.747889 seconds.
+  path: Assets/Makeshift Images/SpellCraft/SpellLibrary
+  artifactKey: Guid(4b09961d819bb494194ab254e31d7bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/SpellLibrary using Guid(4b09961d819bb494194ab254e31d7bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1626e1cb02b4a50ddff8b6ad2767bf61') in 0.001114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.057406 seconds.
+  path: Assets/Makeshift Images/SpellCraft/SpellLibrary (4).png
+  artifactKey: Guid(2cd2487ff8914924c924c71d8b1e8f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/SpellLibrary (4).png using Guid(2cd2487ff8914924c924c71d8b1e8f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178ca4bb44502005286cc2a7b1a14a58') in 0.023732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.641651 seconds.
+  path: Assets/Makeshift Images/SpellCraft/SpellLibrary (5).png
+  artifactKey: Guid(f3118b179051d454b89740435467d312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/SpellLibrary (5).png using Guid(f3118b179051d454b89740435467d312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18dc004f30fe0989b882ed884e48871') in 0.021174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.816094 seconds.
+  path: Assets/Makeshift Images/SpellCraft/SpellLibrary (1).png
+  artifactKey: Guid(7994b3c05537d9a48be008869383b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/SpellLibrary (1).png using Guid(7994b3c05537d9a48be008869383b869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb1351401de11bdaf97fca60cf5c3fc') in 0.017162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.872599 seconds.
+  path: Assets/Makeshift Images/SpellCraft/Title
+  artifactKey: Guid(481434156eb0b374db07ee327d21f285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/Title using Guid(481434156eb0b374db07ee327d21f285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1233881c8e24016e12da26ef75d40f1c') in 0.000972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.401296 seconds.
+  path: Assets/Makeshift Images/SpellCraft/Title 1.png
+  artifactKey: Guid(e1382d166869baa4989f8d624ffff6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/Title 1.png using Guid(e1382d166869baa4989f8d624ffff6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0343eaa9d1e7f9c97d795ca4e689a4f') in 0.019103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.434 seconds
+Refreshing native plugins compatible for Editor in 4.33 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.807 seconds
+Domain Reload Profiling: 2238ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (234ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1807ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (540ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (413ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3576.
+Memory consumption went from 119.5 MB to 119.5 MB.
+Total: 2.596100 ms (FindLiveObjects: 0.236200 ms CreateObjectMapping: 0.104900 ms MarkObjects: 2.199800 ms  DeleteObjects: 0.054200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 31.995391 seconds.
+  path: Assets/Makeshift Images/SpellCraft/MainDorm/MainDorm.png
+  artifactKey: Guid(687f5b80d23aff0428f01b359f48a5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/MainDorm/MainDorm.png using Guid(687f5b80d23aff0428f01b359f48a5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcf0d42073df91b69302606be953002') in 0.069770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 68.981913 seconds.
+  path: Assets/Makeshift Images/SpellCraft/Dungeon/Dungeon (9).png
+  artifactKey: Guid(7d4b863eb166d0748bf22a7a4825e809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/Dungeon/Dungeon (9).png using Guid(7d4b863eb166d0748bf22a7a4825e809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd760cca7fd8417abf9af16802e452028') in 0.075336 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 231.578337 seconds.
-  path: Assets/Scenes/Bestiary.unity
-  artifactKey: Guid(d054ca9a76a9a3442beef445266cac44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Bestiary.unity using Guid(d054ca9a76a9a3442beef445266cac44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48925e2e6010d699d53175be5583b82b') in 0.014337 seconds
+  Time since last request: 33.262478 seconds.
+  path: Assets/Makeshift Images/SpellCraft/Dueling/Dueling.png
+  artifactKey: Guid(f29ac9e2e8b27fb46a6fadb15c099140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/Dueling/Dueling.png using Guid(f29ac9e2e8b27fb46a6fadb15c099140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b8e08744bd32404b96bac73b3a62bd') in 0.024569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.021233 seconds.
+  path: Assets/Makeshift Images/SpellCraft/Dorm/Dorm (1).png
+  artifactKey: Guid(e9c2cf6f80e7b2c489d07ada6972090a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/Dorm/Dorm (1).png using Guid(e9c2cf6f80e7b2c489d07ada6972090a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c52dc63e06c92752e4987613e62c6d5') in 0.016451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.987334 seconds.
+  path: Assets/Makeshift Images/SpellCraft/Dorm/Dorm (8).png
+  artifactKey: Guid(0a76a712454ee034297d3067f1f4509d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/Dorm/Dorm (8).png using Guid(0a76a712454ee034297d3067f1f4509d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178c0b59b1bd09c5bcd3cf50a3c9b94b') in 0.035107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 241.990571 seconds.
+  path: Assets/Makeshift Images/SpellCraft/MainDorm/MainDorm.png
+  artifactKey: Guid(687f5b80d23aff0428f01b359f48a5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/MainDorm/MainDorm.png using Guid(687f5b80d23aff0428f01b359f48a5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a36443553da758d23103212e2ef5d8') in 0.031546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.307988 seconds.
+  path: Assets/Scenes/Hub.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hub.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0067995837a2642bc37299745368e4d') in 0.001052 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.984778 seconds.
+  path: Assets/Scenes/Hub.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hub.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5879d99279296856b3056a31a35864ae') in 0.000863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.037408 seconds.
+  path: Assets/Makeshift Images/SpellCraft/MainDorm/Hub.png
+  artifactKey: Guid(687f5b80d23aff0428f01b359f48a5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/MainDorm/Hub.png using Guid(687f5b80d23aff0428f01b359f48a5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841e6905bc491d049ca98b87bc82f2c9') in 0.024595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.414107 seconds.
+  path: Assets/Makeshift Images/SpellCraft/MainDorm/Hub (1).png
+  artifactKey: Guid(1147a7a31ffe29c429b4b1d1a19b0c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/MainDorm/Hub (1).png using Guid(1147a7a31ffe29c429b4b1d1a19b0c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0cdd60a61e2ef2fd9cbfef76b365d1') in 0.032301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.203475 seconds.
+  path: Assets/Makeshift Images/SpellCraft/GreenHouse/GreenHouse (2).png
+  artifactKey: Guid(c9338b34968933144b6afd12db12c446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/GreenHouse/GreenHouse (2).png using Guid(c9338b34968933144b6afd12db12c446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24af6e5961ba1c67bf31c667ccb2b902') in 0.022680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.520918 seconds.
+  path: Assets/Makeshift Images/SpellCraft/GreenHouse/GreenHouse (1).png
+  artifactKey: Guid(99ad76485659fac4db6c4577f24835b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/GreenHouse/GreenHouse (1).png using Guid(99ad76485659fac4db6c4577f24835b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4e4ac2384b642e90c39edd76abe397') in 0.021282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 22.360491 seconds.
+  path: Assets/Makeshift Images/SpellCraft/MainDorm/Hub (2).png
+  artifactKey: Guid(687f5b80d23aff0428f01b359f48a5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/MainDorm/Hub (2).png using Guid(687f5b80d23aff0428f01b359f48a5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6719047be45bea0aa2b36df961aeb14') in 0.041539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.617942 seconds.
+  path: Assets/Makeshift Images/SpellCraft/Hub
+  artifactKey: Guid(dd0f360fbba29b64d8c4a3c54669bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/SpellCraft/Hub using Guid(dd0f360fbba29b64d8c4a3c54669bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f32c92684ead252b27e9b5cfd96ca7') in 0.000994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 29.744277 seconds.
+  path: Assets/Makeshift Images
+  artifactKey: Guid(26fab2bfd7e0bb14f9556a4f4d4226a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images using Guid(26fab2bfd7e0bb14f9556a4f4d4226a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f5ae6b00def7329b7a901dbc2bbde8') in 0.000776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.491984 seconds.
+  path: Assets/Makeshift Images/Bestiary
+  artifactKey: Guid(b2aff8e5926d65042a9eaced91e3dbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Bestiary using Guid(b2aff8e5926d65042a9eaced91e3dbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b469dccdf2bbdc88ba73303a4dcfaf7') in 0.000834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.160249 seconds.
+  path: Assets/Makeshift Images/Dorm/Dorm (1).png
+  artifactKey: Guid(e9c2cf6f80e7b2c489d07ada6972090a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dorm/Dorm (1).png using Guid(e9c2cf6f80e7b2c489d07ada6972090a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f85bf1497b0012d40defdc84b8f8d95') in 0.028112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.246144 seconds.
+  path: Assets/Makeshift Images/Dorm/Dorm (2).png
+  artifactKey: Guid(6ec1b3070b705f8408ecf0c90e7a3416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dorm/Dorm (2).png using Guid(6ec1b3070b705f8408ecf0c90e7a3416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92545cab34c02ea7dd5eeade832519da') in 0.021253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.625311 seconds.
+  path: Assets/Makeshift Images/Dormitory
+  artifactKey: Guid(1658e71d91ec2c240b04d69cdc785460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dormitory using Guid(1658e71d91ec2c240b04d69cdc785460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2521236f78806ef0f132e3b6d0c87a90') in 0.000964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.170295 seconds.
+  path: Assets/Makeshift Images/Social
+  artifactKey: Guid(101944a119a37cc4fb8da88ca9c15824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Social using Guid(101944a119a37cc4fb8da88ca9c15824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66d8aabb2d7227073edcb8b55b1ffd4') in 0.000697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.420 seconds
+Refreshing native plugins compatible for Editor in 3.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.255 seconds
+Domain Reload Profiling: 1672ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (212ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1256ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (468ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (334ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 6.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3597.
+Memory consumption went from 123.9 MB to 123.9 MB.
+Total: 3.353300 ms (FindLiveObjects: 0.281600 ms CreateObjectMapping: 0.078000 ms MarkObjects: 2.936100 ms  DeleteObjects: 0.056000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 109.336340 seconds.
+  path: Assets/Scenes/Hub.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hub.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4702cf598b15a3f1d94dbe5ac85e327f') in 0.002736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.387 seconds
+Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.280 seconds
+Domain Reload Profiling: 1666ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1282ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (673ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (529ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 6.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.7 KB). Loaded Objects now: 3600.
+Memory consumption went from 123.9 MB to 123.9 MB.
+Total: 3.618200 ms (FindLiveObjects: 0.188800 ms CreateObjectMapping: 0.074800 ms MarkObjects: 3.268200 ms  DeleteObjects: 0.084700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.422 seconds
+Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.070 seconds
+Domain Reload Profiling: 1490ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (195ms)
+		LoadAssemblies (269ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1070ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (597ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (470ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 2.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3603.
+Memory consumption went from 124.2 MB to 124.1 MB.
+Total: 3.300700 ms (FindLiveObjects: 0.186700 ms CreateObjectMapping: 0.084500 ms MarkObjects: 2.960000 ms  DeleteObjects: 0.068500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 188.350565 seconds.
+  path: Assets/Scenes/SpellLibrary.unity
+  artifactKey: Guid(5c94f46bfb46fc449ac9823b50cc3072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SpellLibrary.unity using Guid(5c94f46bfb46fc449ac9823b50cc3072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07f4a70e4754782dadffcae7b3cea41') in 0.003205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.394856 seconds.
+  path: Assets/Scenes/Bestiary.unity
+  artifactKey: Guid(d054ca9a76a9a3442beef445266cac44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Bestiary.unity using Guid(d054ca9a76a9a3442beef445266cac44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8253e48a5c43101cd2f05a769ebe21') in 0.001371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 72.766984 seconds.
+  path: Assets/Scenes/GreenHouse.unity
+  artifactKey: Guid(c25e8bfec9e9ff44fa1a62b9ac56b08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GreenHouse.unity using Guid(c25e8bfec9e9ff44fa1a62b9ac56b08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2430c84620cea233dd70b955e949cacb') in 0.001140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.677708 seconds.
+  path: Assets/Scenes/Hub.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hub.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2002f7e3e7d3a1d125d60863f869c8f') in 0.000847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.391 seconds
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.327 seconds
+Domain Reload Profiling: 1715ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1327ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (707ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (552ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 7.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3606.
+Memory consumption went from 123.9 MB to 123.9 MB.
+Total: 3.362100 ms (FindLiveObjects: 0.195000 ms CreateObjectMapping: 0.087300 ms MarkObjects: 2.984400 ms  DeleteObjects: 0.093700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 45.969316 seconds.
+  path: Assets/Makeshift Images/Hub/Hub (3).png
+  artifactKey: Guid(1147a7a31ffe29c429b4b1d1a19b0c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Hub/Hub (3).png using Guid(1147a7a31ffe29c429b4b1d1a19b0c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0c93f10c7b863eaf1437cc74b239f9') in 0.077938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.379202 seconds.
+  path: Assets/Makeshift Images/Hub/Hub (1).png
+  artifactKey: Guid(687f5b80d23aff0428f01b359f48a5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Hub/Hub (1).png using Guid(687f5b80d23aff0428f01b359f48a5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcfab3edeb91339f1bf84605f59a4a6b') in 0.026622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.373547 seconds.
+  path: Assets/Makeshift Images/Hub/Hub (2).png
+  artifactKey: Guid(1147a7a31ffe29c429b4b1d1a19b0c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Hub/Hub (2).png using Guid(1147a7a31ffe29c429b4b1d1a19b0c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89f539b7f0064229871856b74f695ac') in 0.046543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.410 seconds
+Refreshing native plugins compatible for Editor in 5.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.027 seconds
+Domain Reload Profiling: 1435ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1028ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (552ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (414ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.7 KB). Loaded Objects now: 3609.
+Memory consumption went from 123.9 MB to 123.9 MB.
+Total: 2.706600 ms (FindLiveObjects: 0.192200 ms CreateObjectMapping: 0.076400 ms MarkObjects: 2.382500 ms  DeleteObjects: 0.054200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.390 seconds
+Refreshing native plugins compatible for Editor in 3.51 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.147 seconds
+Domain Reload Profiling: 1536ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (251ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1148ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (667ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (512ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.7 KB). Loaded Objects now: 3612.
+Memory consumption went from 124.2 MB to 124.1 MB.
+Total: 2.218700 ms (FindLiveObjects: 0.165700 ms CreateObjectMapping: 0.070600 ms MarkObjects: 1.932400 ms  DeleteObjects: 0.049000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 364.805639 seconds.
+  path: Assets/Makeshift Images/GreenHouse/GreenHouse (4).png
+  artifactKey: Guid(25354d59fde77454dbac345785ccb5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/GreenHouse/GreenHouse (4).png using Guid(25354d59fde77454dbac345785ccb5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873e2b573182d3bb52286d62955211da') in 0.094539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 52.746388 seconds.
+  path: Assets/Scenes/Dormitory.unity
+  artifactKey: Guid(7778c0f25a4a6514cb997cda528ffd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Dormitory.unity using Guid(7778c0f25a4a6514cb997cda528ffd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01007fdf83136282fd863ce67c523315') in 0.001356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.831054 seconds.
+  path: Assets/Makeshift Images/Dormitory/Dormitory (1).png
+  artifactKey: Guid(8d69db8dd52d83048922e5a050a46d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dormitory/Dormitory (1).png using Guid(8d69db8dd52d83048922e5a050a46d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3bdde971e9f2df1f90da2ce304c764a') in 0.022979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.218159 seconds.
+  path: Assets/Makeshift Images/Dormitory/Dormitory (7).png
+  artifactKey: Guid(6a142105780d122489a318957e17ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dormitory/Dormitory (7).png using Guid(6a142105780d122489a318957e17ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb03aa5314588c5dd1871f16ea7ec351') in 0.012046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.756982 seconds.
+  path: Assets/Makeshift Images/Dormitory/Dormitory (7).png
+  artifactKey: Guid(6a142105780d122489a318957e17ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dormitory/Dormitory (7).png using Guid(6a142105780d122489a318957e17ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888abe6a6aba90c83c2c2bdfded56a44') in 0.030030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.460303 seconds.
+  path: Assets/Makeshift Images/Dormitory/Dormitory (2).png
+  artifactKey: Guid(39bcab1330424d346a98da94e417b648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dormitory/Dormitory (2).png using Guid(39bcab1330424d346a98da94e417b648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b655b9ce493e95c991e551d360081109') in 0.023081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 41.660260 seconds.
+  path: Assets/Makeshift Images/Dormitory/Dormitory (7).png
+  artifactKey: Guid(6a142105780d122489a318957e17ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dormitory/Dormitory (7).png using Guid(6a142105780d122489a318957e17ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf61b4ae7e108f6ce8326adf62a792f6') in 0.017219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.282311 seconds.
+  path: Assets/Makeshift Images/Dormitory/Dormitory (7).png
+  artifactKey: Guid(6a142105780d122489a318957e17ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dormitory/Dormitory (7).png using Guid(6a142105780d122489a318957e17ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac223f449300881f44ec26528e0b4bb') in 0.060424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.623470 seconds.
+  path: Assets/Makeshift Images/Dormitory/Dormitory (2).png
+  artifactKey: Guid(39bcab1330424d346a98da94e417b648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dormitory/Dormitory (2).png using Guid(39bcab1330424d346a98da94e417b648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3ca9e81258809d579548e1f397d5c5') in 0.027975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.464188 seconds.
+  path: Assets/Makeshift Images/Dormitory/Dormitory (3).png
+  artifactKey: Guid(352a0d8798edf424a940998c5cf542c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dormitory/Dormitory (3).png using Guid(352a0d8798edf424a940998c5cf542c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6214250c7afc5d9defb7430ae497fabc') in 0.030899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.581202 seconds.
+  path: Assets/Makeshift Images/Dormitory/Dormitory (5).png
+  artifactKey: Guid(0ce197902ef39954f885840dd7eb6389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dormitory/Dormitory (5).png using Guid(0ce197902ef39954f885840dd7eb6389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5bb139b185f666088902ee8900ace31') in 0.022239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.412115 seconds.
+  path: Assets/Makeshift Images/Dormitory/Dormitory (4).png
+  artifactKey: Guid(da5d291d2a8cfab4483a7bb316523c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dormitory/Dormitory (4).png using Guid(da5d291d2a8cfab4483a7bb316523c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c662957abe57dbe9da43a31583400ca') in 0.023839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.653780 seconds.
+  path: Assets/Makeshift Images/Dormitory/Dormitory (6).png
+  artifactKey: Guid(5b441c793ec672548946c2145552151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dormitory/Dormitory (6).png using Guid(5b441c793ec672548946c2145552151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467b07f537509cea143492b4a6190bdd') in 0.021957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.759688 seconds.
+  path: Assets/Makeshift Images/Dormitory/Dormitory (8).png
+  artifactKey: Guid(ea2078639dec29b4294d07058942295d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dormitory/Dormitory (8).png using Guid(ea2078639dec29b4294d07058942295d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9eb1ea2980b68df7498c982b3d2ed3') in 0.024515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 106.329752 seconds.
+  path: Assets/Scenes/Dueling.unity
+  artifactKey: Guid(f7ba581b7d93f2d4686b700fe36749a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Dueling.unity using Guid(f7ba581b7d93f2d4686b700fe36749a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2a93168267b135290eec0bcdb29ff0') in 0.001136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.428252 seconds.
+  path: Assets/Scenes/Dungeon.unity
+  artifactKey: Guid(bfa8a37931b237d4ea7cc8e8c90e72ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Dungeon.unity using Guid(bfa8a37931b237d4ea7cc8e8c90e72ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b002fc81a9e7becf59a234e5bcdcc9e5') in 0.001137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.908384 seconds.
+  path: Assets/Scenes/GreenHouse.unity
+  artifactKey: Guid(c25e8bfec9e9ff44fa1a62b9ac56b08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GreenHouse.unity using Guid(c25e8bfec9e9ff44fa1a62b9ac56b08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be13187098a7e98e919f104e755379f3') in 0.000794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.635385 seconds.
+  path: Assets/Scenes/Dueling.unity
+  artifactKey: Guid(f7ba581b7d93f2d4686b700fe36749a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Dueling.unity using Guid(f7ba581b7d93f2d4686b700fe36749a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa34cef11487488796c046058bb7eec') in 0.001283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.796132 seconds.
+  path: Assets/Makeshift Images/Dungeon/Dungeon (1).png
+  artifactKey: Guid(4e4d7009b6f219b41a2be0d43ee95c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dungeon/Dungeon (1).png using Guid(4e4d7009b6f219b41a2be0d43ee95c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b331b5e8b25a8a86dc8307f5d50508') in 0.027656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.899695 seconds.
+  path: Assets/Makeshift Images/Dungeon/Dungeon (2).png
+  artifactKey: Guid(38363208dd4d87d4c8c4b5f0b1f43f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dungeon/Dungeon (2).png using Guid(38363208dd4d87d4c8c4b5f0b1f43f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c500edefbd3496ef2959a9682ef5af8') in 0.024487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.482511 seconds.
+  path: Assets/Makeshift Images/Dungeon/Dungeon (3).png
+  artifactKey: Guid(ae6cc3adc86e40047a2ace4904691c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dungeon/Dungeon (3).png using Guid(ae6cc3adc86e40047a2ace4904691c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2625df7470d40db861fc0c42043c37c6') in 0.024391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.886042 seconds.
+  path: Assets/Makeshift Images/Dungeon/Dungeon (4).png
+  artifactKey: Guid(0eeb788141cb0a249bedc4c273b09de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dungeon/Dungeon (4).png using Guid(0eeb788141cb0a249bedc4c273b09de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7bdfc360fb76b9fab6f1bedbae8419') in 0.023275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 12.027527 seconds.
+  path: Assets/Makeshift Images/Dungeon/Dungeon (5).png
+  artifactKey: Guid(ed27275edd10bcf43b61a325268df415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dungeon/Dungeon (5).png using Guid(ed27275edd10bcf43b61a325268df415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e71ba1be1642eee7892a537a1e7b28') in 0.019839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.547834 seconds.
+  path: Assets/Makeshift Images/Dungeon/Dungeon (6).png
+  artifactKey: Guid(3768b3efa721e964191fc908ea37ce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dungeon/Dungeon (6).png using Guid(3768b3efa721e964191fc908ea37ce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637d98f8eea4fc87369fd683c503ccff') in 0.026730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 16.218948 seconds.
+  path: Assets/Makeshift Images/Dungeon/Dungeon (7).png
+  artifactKey: Guid(8f0bfc108dfb60443af13fab0c286b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dungeon/Dungeon (7).png using Guid(8f0bfc108dfb60443af13fab0c286b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aee7d179eac9d5ab5121c2483b2f3ef') in 0.028075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.648567 seconds.
+  path: Assets/Makeshift Images/Dungeon/Dungeon (8).png
+  artifactKey: Guid(72435915dc18d1345b31401673a954e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dungeon/Dungeon (8).png using Guid(72435915dc18d1345b31401673a954e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e42af3b687518b09af480814db7d0ca') in 0.023083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 57.545524 seconds.
+  path: Assets/Makeshift Images/Dungeon/Dungeon (9).png
+  artifactKey: Guid(7d4b863eb166d0748bf22a7a4825e809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dungeon/Dungeon (9).png using Guid(7d4b863eb166d0748bf22a7a4825e809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae062d7998ac1016c23706a111f0b52c') in 0.016930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.613329 seconds.
+  path: Assets/Makeshift Images/Dungeon/Dungeon (18).png
+  artifactKey: Guid(eac2ccd4e50301642955adc603ef92c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dungeon/Dungeon (18).png using Guid(eac2ccd4e50301642955adc603ef92c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5298aaf4af8695d43a070b9a8fa58a') in 0.012851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.803340 seconds.
+  path: Assets/Makeshift Images/Dungeon/Dungeon (9).png
+  artifactKey: Guid(7d4b863eb166d0748bf22a7a4825e809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Makeshift Images/Dungeon/Dungeon (9).png using Guid(7d4b863eb166d0748bf22a7a4825e809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6570f8a411488f91c5f19c0e63bd32') in 0.021274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.486 seconds
+Refreshing native plugins compatible for Editor in 5.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 23.399 seconds
+Domain Reload Profiling: 29880ms
+	BeginReloadAssembly (228ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (6130ms)
+		LoadAssemblies (6269ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (23400ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (534ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (415ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 7.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3638.
+Memory consumption went from 124.0 MB to 123.9 MB.
+Total: 3.634500 ms (FindLiveObjects: 0.279600 ms CreateObjectMapping: 0.097300 ms MarkObjects: 3.196200 ms  DeleteObjects: 0.060300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 280.249749 seconds.
+  path: Assets/Scenes/Social.unity
+  artifactKey: Guid(0309d8f37249f144db3f285b0740c02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Social.unity using Guid(0309d8f37249f144db3f285b0740c02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29dbd388fafc9a82e54d5afd212a18f2') in 0.003970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.9 KB). Loaded Objects now: 3638.
+Memory consumption went from 75.8 MB to 75.8 MB.
+Total: 3.135400 ms (FindLiveObjects: 0.197300 ms CreateObjectMapping: 0.081700 ms MarkObjects: 2.813200 ms  DeleteObjects: 0.041800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3638.
+Memory consumption went from 76.0 MB to 76.0 MB.
+Total: 4.350400 ms (FindLiveObjects: 0.242700 ms CreateObjectMapping: 0.134900 ms MarkObjects: 3.941000 ms  DeleteObjects: 0.030300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

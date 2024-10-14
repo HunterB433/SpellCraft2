@@ -124,13 +124,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1600}
+      Script: {instanceID: 1560}
     - Class: 114
-      Script: {instanceID: 2598}
+      Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 2800}
+      Script: {instanceID: 2600}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 2802}
     - Class: 114
       Script: {instanceID: 4996}
     - Class: 114
@@ -179,13 +179,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1600}
+      Script: {instanceID: 1560}
     - Class: 114
-      Script: {instanceID: 2598}
+      Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 2800}
+      Script: {instanceID: 2600}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 2802}
     - Class: 114
       Script: {instanceID: 4996}
     - Class: 114
@@ -203,6 +203,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -234,13 +236,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1600}
+      Script: {instanceID: 1560}
     - Class: 114
-      Script: {instanceID: 2598}
+      Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 2800}
+      Script: {instanceID: 2600}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 2802}
     - Class: 114
       Script: {instanceID: 4996}
     - Class: 114
@@ -258,6 +260,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -289,13 +293,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1600}
+      Script: {instanceID: 1560}
     - Class: 114
-      Script: {instanceID: 2598}
+      Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 2800}
+      Script: {instanceID: 2600}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 2802}
     - Class: 114
       Script: {instanceID: 4996}
     - Class: 114
@@ -313,6 +317,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -344,13 +350,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1600}
+      Script: {instanceID: 1560}
     - Class: 114
-      Script: {instanceID: 2598}
+      Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 2800}
+      Script: {instanceID: 2600}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 2802}
     - Class: 114
       Script: {instanceID: 4996}
     - Class: 114
@@ -369,6 +375,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
     - Class: 222
@@ -377,7 +385,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/MainDorm.unity:
+    Assets/Scenes/Hub.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -401,15 +409,15 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1600}
+      Script: {instanceID: 1560}
     - Class: 114
-      Script: {instanceID: 2180}
+      Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 2598}
+      Script: {instanceID: 2182}
     - Class: 114
-      Script: {instanceID: 2800}
+      Script: {instanceID: 2600}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 2802}
     - Class: 114
       Script: {instanceID: 4056}
     - Class: 114
@@ -464,13 +472,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1600}
+      Script: {instanceID: 1560}
     - Class: 114
-      Script: {instanceID: 2598}
+      Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 2800}
+      Script: {instanceID: 2600}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 2802}
     - Class: 114
       Script: {instanceID: 4996}
     - Class: 114
@@ -519,13 +527,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1600}
+      Script: {instanceID: 1560}
     - Class: 114
-      Script: {instanceID: 2598}
+      Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 2800}
+      Script: {instanceID: 2600}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 2802}
     - Class: 114
       Script: {instanceID: 4996}
     - Class: 114
@@ -544,6 +552,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
     - Class: 222
@@ -553,6 +563,12 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 915204dac8acad99f076d6e72ada0a0f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
   - hash:
       serializedVersion: 2
       Hash: 55060a7bf226ac385ce19ebd450f199f
@@ -757,12 +773,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: ToggleGroup
-  - hash:
-      serializedVersion: 2
-      Hash: 915204dac8acad99f076d6e72ada0a0f
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Button
   - hash:
       serializedVersion: 2
       Hash: d90629714fa6b0145fcaffc87f5c6559
@@ -1383,12 +1393,12 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 20
   scenePathNames:
-  - Assets/Scenes/MainDorm.unity
-  - Assets/Scenes/Dormitory.unity
-  - Assets/Scenes/SpellLibrary.unity
+  - Assets/Scenes/Hub.unity
   - Assets/Scenes/Bestiary.unity
+  - Assets/Scenes/Dormitory.unity
   - Assets/Scenes/Dueling.unity
   - Assets/Scenes/Dungeon.unity
   - Assets/Scenes/GreenHouse.unity
   - Assets/Scenes/Social.unity
+  - Assets/Scenes/SpellLibrary.unity
   playerPath: C:/Users/hunte/Desktop/SpellCraft2/docs

@@ -41,7 +41,7 @@
               "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
               "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Hub.unity",
               "Assets/Scenes/Social.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
@@ -62,7 +62,7 @@
               "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
               "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Hub.unity",
               "Assets/Scenes/Social.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
@@ -106,7 +106,7 @@
               "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
               "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Hub.unity",
               "Assets/Scenes/Social.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
@@ -133,7 +133,7 @@
               "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
               "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Hub.unity",
               "Assets/Scenes/Social.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
@@ -160,7 +160,7 @@
               "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
               "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Hub.unity",
               "Assets/Scenes/Social.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
@@ -181,7 +181,7 @@
               "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
               "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Hub.unity",
               "Assets/Scenes/Social.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
@@ -214,7 +214,7 @@
               "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
               "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Hub.unity",
               "Assets/Scenes/Social.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
@@ -229,7 +229,7 @@
               "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
               "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Hub.unity",
               "Assets/Scenes/Social.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
@@ -256,7 +256,7 @@
               "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
               "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Hub.unity",
               "Assets/Scenes/Social.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
@@ -277,7 +277,7 @@
               "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
               "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Hub.unity",
               "Assets/Scenes/Social.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
@@ -310,7 +310,7 @@
               "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
               "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Hub.unity",
               "Assets/Scenes/Social.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
@@ -331,7 +331,7 @@
               "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
               "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Hub.unity",
               "Assets/Scenes/Social.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
@@ -346,7 +346,7 @@
               "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
               "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Hub.unity",
               "Assets/Scenes/Social.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
@@ -385,7 +385,7 @@
               "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
               "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Hub.unity",
               "Assets/Scenes/Social.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
@@ -406,7 +406,7 @@
               "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
               "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Hub.unity",
               "Assets/Scenes/Social.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
@@ -422,7 +422,12 @@
           {
             "name": "Renderer",
             "scenes": [
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Dormitory.unity",
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/Hub.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -447,7 +452,7 @@
               "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
               "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Hub.unity",
               "Assets/Scenes/Social.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
@@ -474,7 +479,7 @@
               "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
               "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Hub.unity",
               "Assets/Scenes/Social.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
@@ -490,7 +495,12 @@
           {
             "name": "SpriteRenderer",
             "scenes": [
-              "Assets/Scenes/MainDorm.unity"
+              "Assets/Scenes/Dormitory.unity",
+              "Assets/Scenes/Dueling.unity",
+              "Assets/Scenes/Dungeon.unity",
+              "Assets/Scenes/GreenHouse.unity",
+              "Assets/Scenes/Hub.unity",
+              "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -801,7 +811,7 @@
               "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
               "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Hub.unity",
               "Assets/Scenes/Social.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
@@ -851,7 +861,7 @@
               "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
               "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Hub.unity",
               "Assets/Scenes/Social.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
@@ -872,7 +882,7 @@
               "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
               "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/MainDorm.unity",
+              "Assets/Scenes/Hub.unity",
               "Assets/Scenes/Social.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],

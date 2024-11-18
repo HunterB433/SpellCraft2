@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C3AA49-98B5-DC31-6AC3-4BECE1A6EBE7}|Assembly-CSharp.csproj|c:\\users\\hunte\\desktop\\spellcraft2\\spellcraft2unity\\assets\\scripts\\popupsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C3AA49-98B5-DC31-6AC3-4BECE1A6EBE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\popupsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PopupSystem.cs",
+              "DocumentMoniker": "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\Assets\\Scripts\\PopupSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PopupSystem.cs",
+              "ToolTip": "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\Assets\\Scripts\\PopupSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PopupSystem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T17:46:01.149Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

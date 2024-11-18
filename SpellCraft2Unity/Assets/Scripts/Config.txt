@@ -1,0 +1,4 @@
+Assets\Makeshift Images\wizard.jpg = IMAGE_1
+"It's dangerous to go alone, take this!" = TEXT_1
+C:\Users\hunte\Desktop\SpellCraft2\SpellCraft2Unity\Assets\Makeshift Images\wizard.jpg = IMAGE_2
+"Hello there!" = TEXT_2

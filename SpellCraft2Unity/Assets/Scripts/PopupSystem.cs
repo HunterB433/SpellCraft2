@@ -1,93 +1,124 @@
-// Step 1: Create a Popup UI in Unity
-// 1. In Unity, create a Canvas.
-// 2. Add a Panel to the Canvas that will act as the background for the popup.
-// 3. Inside the Panel, create an Image on the left for the person image and a Text (or TextMeshPro) element on the right for the dialogue.
-// 4. Add a Button at the bottom for advancing the dialogue.
-
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 using System.Collections.Generic;
-using System.IO;
+using Unity.VisualScripting;
 
 public class PopupSystem : MonoBehaviour
 {
-    public Image personImage;
-    public Text dialogueText;
-    public Button nextButton;
+    public GameObject PopupPane;            // Panel for the PopUp (USE PREFAB)
+    public Image tempImage;                 // The Image component in the panel
+    public TextMeshProUGUI dialogueText;    // The TextMeshProUGUI DIALOGUE component in the panel
+    public TextMeshProUGUI titleText;       // The TextMeshProUGUI TITLE component in the panel
 
-    private Queue<string> dialogueQueue;
-    private Dictionary<string, Sprite> imageDictionary;
+    public Button nextButton;               // The Button to trigger the change in text
+    public Button playGuideButton;          // Used to start the POPUP (Might try to remove this later b/c
+                                            // There can be better ways
+    public Button startButton;              // Used to start the game after this
+
+    public string ToBeTitle;
+
+    public List<Sprite> images = new List<Sprite>();                     // List to hold all images to display
+    [SerializeField] private List<string> messages = new List<string>(); // List to hold multiple messages
+    [SerializeField] private List<int> imageIndices = new List<int>();   // Array of image indices corresponding to the messages
+
+    private int currentMessageIndex = 0;    // Index to keep track of current message
 
     void Start()
     {
-        // Initialize the queue and dictionary
-        dialogueQueue = new Queue<string>();
-        imageDictionary = new Dictionary<string, Sprite>();
+        // Initially, disable the PopupPane
+        PopupPane.SetActive(false);
 
-        // Load config data (you'll need to replace this with actual file loading)
-        LoadConfigData();
+        // Initially set the image and first message
+        if (images.Count > 0 && messages.Count > 0)
+        {
+            tempImage.sprite = images[imageIndices[0]]; // Set the first image based on the index
+            dialogueText.text = messages[0];
+        }
 
-        // Set up button listener
-        nextButton.onClick.AddListener(ShowNextDialogue);
+        // These may be removed later
+        // Add a listener to the button to trigger the change when clicked
+        nextButton.onClick.AddListener(OnNextButtonClicked);
+        // Add a listener to the play button to trigger scene
+        playGuideButton.onClick.AddListener(OnPlayButtonClicked);
+    }
+    void OnPlayButtonClicked()
+    {
+        // When the Play button is clicked, enable the PopupPane
+        PopupPane.SetActive(true);
+        HideButton(playGuideButton);
+        titleText.text = ToBeTitle;
     }
 
-    private void LoadConfigData()
+    void OnNextButtonClicked()
     {
-        // Replace with actual path or file reading
-        string configPath = "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\Assets\\Scripts\\config.txt";
-        string[] lines = File.ReadAllLines(configPath);
-
-        foreach (string line in lines)
+        // If we still have messages left in the list
+        if (currentMessageIndex < messages.Count - 1)
         {
-            string[] parts = line.Split('=');
-            if (parts.Length == 2)
-            {
-                string key = parts[1].Trim();
-                string value = parts[0].Trim();
+            // Go to next message
+            currentMessageIndex++;
+            dialogueText.text = messages[currentMessageIndex];
 
-                if (key.StartsWith("IMAGE"))
+            // Set the image based on the image index for the current message
+            if (currentMessageIndex < imageIndices.Count)
+            {
+                int imageIndex = imageIndices[currentMessageIndex];
+                if (imageIndex >= 0 && imageIndex < images.Count)
                 {
-                    // Load image as a Sprite
-                    Sprite image = LoadSpriteFromPath(value);
-                    imageDictionary[key] = image;
+                    tempImage.sprite = images[imageIndex];
                 }
-                else if (key.StartsWith("TEXT"))
+                else
                 {
-                    // Add text to the dialogue queue
-                    dialogueQueue.Enqueue(value);
+                    Debug.LogWarning("Image index out of range.");
                 }
             }
         }
-    }
-
-    private Sprite LoadSpriteFromPath(string path)
-    {
-        Texture2D texture = new Texture2D(2, 2);
-        byte[] imageData = File.ReadAllBytes(path);
-        texture.LoadImage(imageData);
-        return Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0.5f, 0.5f));
-    }
-
-    public void ShowPopup(string imageKey)
-    {
-        if (imageDictionary.ContainsKey(imageKey))
+        else
         {
-            personImage.sprite = imageDictionary[imageKey];
+            // Hide the Panel after showing all messages
+            // Make the START button Show up
+            HidePanel();
+            ShowButton(startButton);
         }
-        ShowNextDialogue();
     }
 
-    private void ShowNextDialogue()
+    void HidePanel()
     {
-        if (dialogueQueue.Count > 0)
+        // Disable the entire panel object
+        if (PopupPane != null)
         {
-            dialogueText.text = dialogueQueue.Dequeue();
-            nextButton.GetComponentInChildren<Text>().text = dialogueQueue.Count > 0 ? "Next" : "Done";
+            PopupPane.SetActive(false);
         }
         else
         {
-            // Hide the popup when done
-            gameObject.SetActive(false);
+            Debug.LogWarning("Panel is not assigned in the inspector.");
         }
     }
+
+    void HideButton(Button button)
+    {
+        // Disable the entire panel object
+        if (button != null)
+        {
+            button.gameObject.SetActive(false);
+        }
+        else
+        {
+            Debug.LogWarning("Button is not assigned in the inspector.");
+        }
+    }
+
+    void ShowButton(Button button)
+    {
+        // Disable the entire panel object
+        if (button != null)
+        {
+            button.gameObject.SetActive(true);
+        }
+        else
+        {
+            Debug.LogWarning("Button is not assigned in the inspector.");
+        }
+    }
+
 }

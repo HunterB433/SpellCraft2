@@ -861,7 +861,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4969317950411106338, guid: 90cf38f8dbb64574b871c3f7cfb90b25, type: 3}
       propertyPath: m_Name
-      value: Hub
+      value: HubNew
       objectReference: {fileID: 0}
     - target: {fileID: 6050371937041885676, guid: 90cf38f8dbb64574b871c3f7cfb90b25, type: 3}
       propertyPath: m_Pivot.x

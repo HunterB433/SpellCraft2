@@ -1,6 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - LevelSelector
+    - PopupSystem
     - SceneController
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -25,6 +27,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
     - UnityEngine.UI.Image
   serializedClasses:
     Unity.TextMeshPro:
@@ -46,6 +49,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.RectOffset
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
@@ -72,205 +76,21 @@ ScriptsOnlyBuild:
     fullTypeName: SceneController
     methodName: LoadSceneByButton
   - assembly: Assembly-CSharp
-    fullTypeName: SceneController
-    methodName: LoadSceneByButton
+    fullTypeName: LevelSelector
+    methodName: OpenScene
   - assembly: Assembly-CSharp
-    fullTypeName: SceneController
-    methodName: LoadSceneByButton
+    fullTypeName: LevelSelector
+    methodName: OpenScene
   - assembly: Assembly-CSharp
-    fullTypeName: SceneController
-    methodName: LoadSceneByButton
+    fullTypeName: LevelSelector
+    methodName: OpenScene
   - assembly: Assembly-CSharp
-    fullTypeName: SceneController
-    methodName: LoadSceneByButton
+    fullTypeName: LevelSelector
+    methodName: OpenScene
   - assembly: Assembly-CSharp
-    fullTypeName: SceneController
-    methodName: LoadSceneByButton
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneController
-    methodName: LoadSceneByButton
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneController
-    methodName: LoadSceneByButton
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneController
-    methodName: LoadSceneByButton
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneController
-    methodName: LoadSceneByButton
-  - assembly: Assembly-CSharp
-    fullTypeName: SceneController
-    methodName: LoadSceneByButton
+    fullTypeName: LevelSelector
+    methodName: OpenScene
   sceneClasses:
-    Assets/Scenes/Bestiary.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1560}
-    - Class: 114
-      Script: {instanceID: 1602}
-    - Class: 114
-      Script: {instanceID: 2600}
-    - Class: 114
-      Script: {instanceID: 2802}
-    - Class: 114
-      Script: {instanceID: 4996}
-    - Class: 114
-      Script: {instanceID: 5540}
-    - Class: 114
-      Script: {instanceID: 5690}
-    - Class: 114
-      Script: {instanceID: 6004}
-    - Class: 114
-      Script: {instanceID: 7412}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/Dormitory.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1560}
-    - Class: 114
-      Script: {instanceID: 1602}
-    - Class: 114
-      Script: {instanceID: 2600}
-    - Class: 114
-      Script: {instanceID: 2802}
-    - Class: 114
-      Script: {instanceID: 4996}
-    - Class: 114
-      Script: {instanceID: 5540}
-    - Class: 114
-      Script: {instanceID: 5690}
-    - Class: 114
-      Script: {instanceID: 6004}
-    - Class: 114
-      Script: {instanceID: 7412}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 212
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/Dueling.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1560}
-    - Class: 114
-      Script: {instanceID: 1602}
-    - Class: 114
-      Script: {instanceID: 2600}
-    - Class: 114
-      Script: {instanceID: 2802}
-    - Class: 114
-      Script: {instanceID: 4996}
-    - Class: 114
-      Script: {instanceID: 5540}
-    - Class: 114
-      Script: {instanceID: 5690}
-    - Class: 114
-      Script: {instanceID: 6004}
-    - Class: 114
-      Script: {instanceID: 7412}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 212
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
     Assets/Scenes/Dungeon.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -301,15 +121,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2802}
     - Class: 114
+      Script: {instanceID: 4686}
+    - Class: 114
       Script: {instanceID: 4996}
     - Class: 114
       Script: {instanceID: 5540}
     - Class: 114
       Script: {instanceID: 5690}
     - Class: 114
-      Script: {instanceID: 6004}
+      Script: {instanceID: 6006}
     - Class: 114
-      Script: {instanceID: 7412}
+      Script: {instanceID: 26748}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -328,7 +150,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/GreenHouse.unity:
+    Assets/Scenes/FightScenes/Boss Rat.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -349,27 +171,34 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1560}
-    - Class: 114
-      Script: {instanceID: 1602}
-    - Class: 114
-      Script: {instanceID: 2600}
-    - Class: 114
-      Script: {instanceID: 2802}
-    - Class: 114
-      Script: {instanceID: 4996}
-    - Class: 114
-      Script: {instanceID: 5540}
-    - Class: 114
-      Script: {instanceID: 5690}
-    - Class: 114
-      Script: {instanceID: 6004}
-    - Class: 114
-      Script: {instanceID: 7412}
-    - Class: 115
+    - Class: 157
       Script: {instanceID: 0}
-    - Class: 128
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    Assets/Scenes/FightScenes/Chaos Rat.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -379,13 +208,94 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
-    - Class: 222
+    Assets/Scenes/FightScenes/Earth Rat.unity:
+    - Class: 1
       Script: {instanceID: 0}
-    - Class: 223
+    - Class: 4
       Script: {instanceID: 0}
-    - Class: 224
+    - Class: 20
       Script: {instanceID: 0}
-    Assets/Scenes/Hub.unity:
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    Assets/Scenes/FightScenes/Ice Rat.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    Assets/Scenes/FightScenes/Magma Rat.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    Assets/Scenes/HomeScreen.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -401,6 +311,10 @@ ScriptsOnlyBuild:
     - Class: 49
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -429,9 +343,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5690}
     - Class: 114
-      Script: {instanceID: 6004}
+      Script: {instanceID: 5726}
     - Class: 114
-      Script: {instanceID: 7412}
+      Script: {instanceID: 6006}
+    - Class: 114
+      Script: {instanceID: 7414}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -450,7 +366,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/Social.unity:
+    Assets/Scenes/HubNew.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -486,9 +402,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5690}
     - Class: 114
-      Script: {instanceID: 6004}
+      Script: {instanceID: 6006}
     - Class: 114
-      Script: {instanceID: 7412}
+      Script: {instanceID: 7414}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -496,6 +412,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -541,9 +459,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5690}
     - Class: 114
-      Script: {instanceID: 6004}
+      Script: {instanceID: 6006}
     - Class: 114
-      Script: {instanceID: 7412}
+      Script: {instanceID: 7414}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1135,6 +1053,12 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: be2e88db972b21e5db274244269ba8e6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PopupSystem
+  - hash:
+      serializedVersion: 2
       Hash: da5a949a0bbd2ff91bc51c5805c2c41f
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1391,14 +1315,21 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ec2ecba371efc2fccfc1555c59878655
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LevelSelector
   platform: 20
   scenePathNames:
-  - Assets/Scenes/Hub.unity
-  - Assets/Scenes/Bestiary.unity
-  - Assets/Scenes/Dormitory.unity
-  - Assets/Scenes/Dueling.unity
-  - Assets/Scenes/Dungeon.unity
-  - Assets/Scenes/GreenHouse.unity
-  - Assets/Scenes/Social.unity
+  - Assets/Scenes/HomeScreen.unity
+  - Assets/Scenes/HubNew.unity
   - Assets/Scenes/SpellLibrary.unity
+  - Assets/Scenes/Dungeon.unity
+  - Assets/Scenes/FightScenes/Ice Rat.unity
+  - Assets/Scenes/FightScenes/Magma Rat.unity
+  - Assets/Scenes/FightScenes/Earth Rat.unity
+  - Assets/Scenes/FightScenes/Chaos Rat.unity
+  - Assets/Scenes/FightScenes/Boss Rat.unity
   playerPath: C:/Users/hunte/Desktop/SpellCraft2/docs

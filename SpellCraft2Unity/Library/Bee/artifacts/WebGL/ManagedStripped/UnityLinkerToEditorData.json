@@ -36,13 +36,14 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/Scenes/Bestiary.unity",
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
-              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/FightScenes/Boss Rat.unity",
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
@@ -50,20 +51,23 @@
           },
           {
             "name": "AudioClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/HomeScreen.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/Scenes/Bestiary.unity",
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
-              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/FightScenes/Boss Rat.unity",
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
@@ -76,8 +80,18 @@
             "icon": null
           },
           {
+            "name": "AudioSource",
+            "scenes": [
+              "Assets/Scenes/HomeScreen.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "SampleClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/HomeScreen.unity"
+            ],
             "dependencyType": 1,
             "icon": null
           }
@@ -101,13 +115,14 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/Scenes/Bestiary.unity",
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
-              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/FightScenes/Boss Rat.unity",
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
@@ -128,13 +143,14 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "Assets/Scenes/Bestiary.unity",
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
-              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/FightScenes/Boss Rat.unity",
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
@@ -155,13 +171,14 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/Scenes/Bestiary.unity",
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
-              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/FightScenes/Boss Rat.unity",
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 1,
@@ -176,13 +193,14 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/Scenes/Bestiary.unity",
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
-              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/FightScenes/Boss Rat.unity",
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
@@ -209,13 +227,14 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/Scenes/Bestiary.unity",
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
-              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/FightScenes/Boss Rat.unity",
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 1,
@@ -224,13 +243,14 @@
           {
             "name": "Light",
             "scenes": [
-              "Assets/Scenes/Bestiary.unity",
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
-              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/FightScenes/Boss Rat.unity",
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
@@ -251,13 +271,14 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/Scenes/Bestiary.unity",
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
-              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/FightScenes/Boss Rat.unity",
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
@@ -272,13 +293,14 @@
           {
             "name": "Material",
             "scenes": [
-              "Assets/Scenes/Bestiary.unity",
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
-              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/FightScenes/Boss Rat.unity",
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
@@ -305,13 +327,9 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Scenes/Bestiary.unity",
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
-              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
@@ -326,13 +344,9 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Scenes/Bestiary.unity",
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
-              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 1,
@@ -341,13 +355,14 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/Scenes/Bestiary.unity",
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
-              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/FightScenes/Boss Rat.unity",
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 1,
@@ -380,13 +395,9 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/Scenes/Bestiary.unity",
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
-              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
@@ -401,13 +412,14 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/Scenes/Bestiary.unity",
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
-              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/FightScenes/Boss Rat.unity",
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
@@ -422,11 +434,14 @@
           {
             "name": "Renderer",
             "scenes": [
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
+              "Assets/Scenes/FightScenes/Boss Rat.unity",
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
@@ -447,13 +462,14 @@
           {
             "name": "Shader",
             "scenes": [
-              "Assets/Scenes/Bestiary.unity",
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
-              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/FightScenes/Boss Rat.unity",
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
@@ -474,13 +490,14 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/Scenes/Bestiary.unity",
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
-              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/FightScenes/Boss Rat.unity",
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
@@ -495,11 +512,14 @@
           {
             "name": "SpriteRenderer",
             "scenes": [
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
+              "Assets/Scenes/FightScenes/Boss Rat.unity",
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
@@ -806,13 +826,9 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/Bestiary.unity",
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
-              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
@@ -856,13 +872,9 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/Scenes/Bestiary.unity",
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
-              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,
@@ -877,13 +889,9 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/Scenes/Bestiary.unity",
-              "Assets/Scenes/Dormitory.unity",
-              "Assets/Scenes/Dueling.unity",
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/GreenHouse.unity",
-              "Assets/Scenes/Hub.unity",
-              "Assets/Scenes/Social.unity",
+              "Assets/Scenes/HomeScreen.unity",
+              "Assets/Scenes/HubNew.unity",
               "Assets/Scenes/SpellLibrary.unity"
             ],
             "dependencyType": 0,

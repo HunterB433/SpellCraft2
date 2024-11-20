@@ -51,6 +51,7 @@ MonoBehaviour:
   nextButton: {fileID: 0}
   playGuideButton: {fileID: 0}
   startButton: {fileID: 0}
+  ToBeTitle: 
   images: []
   messages: []
   imageIndices: 

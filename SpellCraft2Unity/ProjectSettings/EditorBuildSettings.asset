@@ -5,24 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Old/Hub.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
-    path: Assets/Scenes/Old/Bestiary.unity
-    guid: d054ca9a76a9a3442beef445266cac44
-  - enabled: 0
-    path: Assets/Scenes/Old/Dormitory.unity
-    guid: 7778c0f25a4a6514cb997cda528ffd38
-  - enabled: 0
-    path: Assets/Scenes/Old/Dueling.unity
-    guid: f7ba581b7d93f2d4686b700fe36749a7
-  - enabled: 0
-    path: Assets/Scenes/Old/GreenHouse.unity
-    guid: c25e8bfec9e9ff44fa1a62b9ac56b08b
-  - enabled: 0
-    path: Assets/Scenes/Old/Social.unity
-    guid: 0309d8f37249f144db3f285b0740c02f
   - enabled: 1
     path: Assets/Scenes/HomeScreen.unity
     guid: 013627d6c208d0a4d8d290e9253591ed
@@ -34,5 +16,20 @@ EditorBuildSettings:
     guid: 5c94f46bfb46fc449ac9823b50cc3072
   - enabled: 1
     path: Assets/Scenes/Dungeon.unity
-    guid: bfa8a37931b237d4ea7cc8e8c90e72ae
+    guid: eba65f14f25e4894b80d5c58076542e6
+  - enabled: 1
+    path: Assets/Scenes/FightScenes/Ice Rat.unity
+    guid: 59f47e23203c1f249a1e72b1129a53f2
+  - enabled: 1
+    path: Assets/Scenes/FightScenes/Magma Rat.unity
+    guid: 04c089df46e9cb043840289e0fbc0220
+  - enabled: 1
+    path: Assets/Scenes/FightScenes/Earth Rat.unity
+    guid: bd3898bfaa91c4b42ba2fa30d81fe8c9
+  - enabled: 1
+    path: Assets/Scenes/FightScenes/Chaos Rat.unity
+    guid: 00cbfe105647c8c43a8f971fc9dab683
+  - enabled: 1
+    path: Assets/Scenes/FightScenes/Boss Rat.unity
+    guid: 9640af689c30e5343a6cfd49adf38b40
   m_configObjects: {}

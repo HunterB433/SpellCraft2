@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D6C3AA49-98B5-DC31-6AC3-4BECE1A6EBE7}|Assembly-CSharp.csproj|c:\\users\\hunte\\desktop\\spellcraft2\\spellcraft2unity\\assets\\scripts\\levelselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C3AA49-98B5-DC31-6AC3-4BECE1A6EBE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D6C3AA49-98B5-DC31-6AC3-4BECE1A6EBE7}|Assembly-CSharp.csproj|c:\\users\\hunte\\desktop\\spellcraft2\\spellcraft2unity\\assets\\scripts\\scenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6C3AA49-98B5-DC31-6AC3-4BECE1A6EBE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6C3AA49-98B5-DC31-6AC3-4BECE1A6EBE7}|Assembly-CSharp.csproj|c:\\users\\hunte\\desktop\\spellcraft2\\spellcraft2unity\\assets\\scripts\\popupsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6C3AA49-98B5-DC31-6AC3-4BECE1A6EBE7}|Assembly-CSharp.csproj|C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\assets\\scripts\\popupsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6C3AA49-98B5-DC31-6AC3-4BECE1A6EBE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\popupsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6C3AA49-98B5-DC31-6AC3-4BECE1A6EBE7}|Assembly-CSharp.csproj|C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\assets\\scripts\\config.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D6C3AA49-98B5-DC31-6AC3-4BECE1A6EBE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\config.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\assets\\scripts\\config.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\config.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,19 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LevelSelector.cs",
+              "DocumentMoniker": "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\Assets\\Scripts\\LevelSelector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelSelector.cs",
+              "ToolTip": "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\Assets\\Scripts\\LevelSelector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelSelector.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAmwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T03:25:27.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SceneController.cs",
               "DocumentMoniker": "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\Assets\\Scripts\\SceneController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneController.cs",
               "ToolTip": "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\Assets\\Scripts\\SceneController.cs",
               "RelativeToolTip": "Assets\\Scripts\\SceneController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwDMAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T21:28:23.774Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Config.txt",
               "DocumentMoniker": "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\Assets\\Scripts\\Config.txt",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Config.txt",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PopupSystem.cs",
               "DocumentMoniker": "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\Assets\\Scripts\\PopupSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PopupSystem.cs",
@@ -59,8 +76,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PopupSystem.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAwwDEAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T17:46:01.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T17:46:01.149Z"
             }
           ]
         }

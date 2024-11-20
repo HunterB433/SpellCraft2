@@ -1,2 +1,0 @@
-"It's dangerous to go alone, take this!" = TEXT_1
-"Hello there!" = TEXT_2

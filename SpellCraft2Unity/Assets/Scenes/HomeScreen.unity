@@ -122,6 +122,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &157460369
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 911058608606642668, guid: f9f17a97733468e4d9b89efd1389f8c6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 911058608606642668, guid: f9f17a97733468e4d9b89efd1389f8c6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 911058608606642668, guid: f9f17a97733468e4d9b89efd1389f8c6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 911058608606642668, guid: f9f17a97733468e4d9b89efd1389f8c6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 911058608606642668, guid: f9f17a97733468e4d9b89efd1389f8c6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 911058608606642668, guid: f9f17a97733468e4d9b89efd1389f8c6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 911058608606642668, guid: f9f17a97733468e4d9b89efd1389f8c6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 911058608606642668, guid: f9f17a97733468e4d9b89efd1389f8c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 911058608606642668, guid: f9f17a97733468e4d9b89efd1389f8c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 911058608606642668, guid: f9f17a97733468e4d9b89efd1389f8c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4388060274345307686, guid: f9f17a97733468e4d9b89efd1389f8c6, type: 3}
+      propertyPath: m_Name
+      value: ScreenControllerSummoner
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f9f17a97733468e4d9b89efd1389f8c6, type: 3}
 --- !u!1 &282714719
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,12 +592,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 53a024cae13db6940bc54fe89643f644, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d8a967a9ca87bbe45982dc1226174737, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.81, y: 4.39}
+  m_Size: {x: 5.77, y: 3.87}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -555,7 +612,7 @@ Transform:
   m_GameObject: {fileID: 459264775}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 3.1, y: 2.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -594,7 +651,7 @@ GameObject:
   - component: {fileID: 1208504655}
   - component: {fileID: 1208504654}
   m_Layer: 0
-  m_Name: Title 1
+  m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -641,12 +698,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d4b25c24574702440a661a1e4c967d1d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 81a034780d29c3e4c97c17b74e360a1f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 13.83, y: 6.68}
+  m_Size: {x: 14.14, y: 7.46}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1528,3 +1585,4 @@ SceneRoots:
   - {fileID: 1605546158}
   - {fileID: 2135654564743578651}
   - {fileID: 1934965266}
+  - {fileID: 157460369}

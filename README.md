@@ -1,2 +1,2 @@
 # SpellCraft2
-silly time for CS421
+silly time for CS413

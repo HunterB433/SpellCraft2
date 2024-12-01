@@ -61,8 +61,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\LevelSelector.cs" />
+    <Compile Include="Assets\Scripts\Health_display.cs" />
+    <Compile Include="Assets\Scripts\SpellManager.cs" />
+    <Compile Include="Assets\SpellComponent.cs" />
     <Compile Include="Assets\Scripts\PopupSystem.cs" />
     <Compile Include="Assets\Scripts\SceneController.cs" />
+    <Compile Include="Assets\Scripts\Enemy_health_display.cs" />
+    <Compile Include="Assets\Scripts\WandEffectScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

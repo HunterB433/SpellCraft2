@@ -61,18 +61,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\LevelSelector.cs" />
+    <Compile Include="Assets\Scripts\PersistentAudio.cs" />
     <Compile Include="Assets\Scripts\Health_display.cs" />
     <Compile Include="Assets\Scripts\SpellManager.cs" />
-    <Compile Include="Assets\SpellComponent.cs" />
     <Compile Include="Assets\Scripts\PopupSystem.cs" />
     <Compile Include="Assets\Scripts\SceneController.cs" />
     <Compile Include="Assets\Scripts\Enemy_health_display.cs" />
+    <Compile Include="Assets\Scripts\SpellComponent.cs" />
     <Compile Include="Assets\Scripts\WandEffectScript.cs" />
+    <Compile Include="Assets\Scripts\SpinObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Text\TextScene2.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
@@ -82,8 +85,10 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Text\TextScene3.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Text\TextScene4.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Text\TextScene1.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />

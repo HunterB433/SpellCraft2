@@ -62,12 +62,16 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\LevelSelector.cs" />
     <Compile Include="Assets\Scripts\PersistentAudio.cs" />
+    <Compile Include="Assets\Scripts\EnemyHealthDisplay.cs" />
     <Compile Include="Assets\Scripts\Health_display.cs" />
+    <Compile Include="Assets\Scripts\EnemyStats.cs" />
     <Compile Include="Assets\Scripts\SpellManager.cs" />
     <Compile Include="Assets\Scripts\PopupSystem.cs" />
     <Compile Include="Assets\Scripts\SceneController.cs" />
-    <Compile Include="Assets\Scripts\Enemy_health_display.cs" />
+    <Compile Include="Assets\Scripts\CardClickHandler.cs" />
+    <Compile Include="Assets\Scripts\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\SpellComponent.cs" />
+    <Compile Include="Assets\Scripts\Main_Menu_Loader.cs" />
     <Compile Include="Assets\Scripts\WandEffectScript.cs" />
     <Compile Include="Assets\Scripts\SpinObject.cs" />
   </ItemGroup>

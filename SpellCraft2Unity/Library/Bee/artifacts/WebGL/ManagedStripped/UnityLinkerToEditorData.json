@@ -37,14 +37,18 @@
             "name": "AudioBehaviour",
             "scenes": [
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/FightScenes/Boss Rat.unity",
               "Assets/Scenes/FightScenes/Chaos Rat.unity",
               "Assets/Scenes/FightScenes/Earth Rat.unity",
               "Assets/Scenes/FightScenes/Ice Rat.unity",
               "Assets/Scenes/FightScenes/Magma Rat.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity",
+              "Assets/Scenes/Narative Scenes/1-Outside.unity",
+              "Assets/Scenes/Narative Scenes/2.1-Redundant.unity",
+              "Assets/Scenes/Narative Scenes/2-Auditorium.unity",
+              "Assets/Scenes/Narative Scenes/3.1-Hub.unity",
+              "Assets/Scenes/Narative Scenes/3-Hub.unity",
+              "Assets/Scenes/Narative Scenes/4-SpellLibrary.unity",
+              "Assets/Scenes/Win.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -52,7 +56,7 @@
           {
             "name": "AudioClip",
             "scenes": [
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -61,14 +65,18 @@
             "name": "AudioListener",
             "scenes": [
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/FightScenes/Boss Rat.unity",
               "Assets/Scenes/FightScenes/Chaos Rat.unity",
               "Assets/Scenes/FightScenes/Earth Rat.unity",
               "Assets/Scenes/FightScenes/Ice Rat.unity",
               "Assets/Scenes/FightScenes/Magma Rat.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity",
+              "Assets/Scenes/Narative Scenes/1-Outside.unity",
+              "Assets/Scenes/Narative Scenes/2.1-Redundant.unity",
+              "Assets/Scenes/Narative Scenes/2-Auditorium.unity",
+              "Assets/Scenes/Narative Scenes/3.1-Hub.unity",
+              "Assets/Scenes/Narative Scenes/3-Hub.unity",
+              "Assets/Scenes/Narative Scenes/4-SpellLibrary.unity",
+              "Assets/Scenes/Win.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -82,7 +90,7 @@
           {
             "name": "AudioSource",
             "scenes": [
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -90,7 +98,7 @@
           {
             "name": "SampleClip",
             "scenes": [
-              "Assets/Scenes/HomeScreen.unity"
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -116,14 +124,18 @@
             "name": "Camera",
             "scenes": [
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/FightScenes/Boss Rat.unity",
               "Assets/Scenes/FightScenes/Chaos Rat.unity",
               "Assets/Scenes/FightScenes/Earth Rat.unity",
               "Assets/Scenes/FightScenes/Ice Rat.unity",
               "Assets/Scenes/FightScenes/Magma Rat.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity",
+              "Assets/Scenes/Narative Scenes/1-Outside.unity",
+              "Assets/Scenes/Narative Scenes/2.1-Redundant.unity",
+              "Assets/Scenes/Narative Scenes/2-Auditorium.unity",
+              "Assets/Scenes/Narative Scenes/3.1-Hub.unity",
+              "Assets/Scenes/Narative Scenes/3-Hub.unity",
+              "Assets/Scenes/Narative Scenes/4-SpellLibrary.unity",
+              "Assets/Scenes/Win.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -144,14 +156,18 @@
             "name": "Cubemap",
             "scenes": [
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/FightScenes/Boss Rat.unity",
               "Assets/Scenes/FightScenes/Chaos Rat.unity",
               "Assets/Scenes/FightScenes/Earth Rat.unity",
               "Assets/Scenes/FightScenes/Ice Rat.unity",
               "Assets/Scenes/FightScenes/Magma Rat.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity",
+              "Assets/Scenes/Narative Scenes/1-Outside.unity",
+              "Assets/Scenes/Narative Scenes/2.1-Redundant.unity",
+              "Assets/Scenes/Narative Scenes/2-Auditorium.unity",
+              "Assets/Scenes/Narative Scenes/3.1-Hub.unity",
+              "Assets/Scenes/Narative Scenes/3-Hub.unity",
+              "Assets/Scenes/Narative Scenes/4-SpellLibrary.unity",
+              "Assets/Scenes/Win.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -172,14 +188,18 @@
             "name": "EditorExtension",
             "scenes": [
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/FightScenes/Boss Rat.unity",
               "Assets/Scenes/FightScenes/Chaos Rat.unity",
               "Assets/Scenes/FightScenes/Earth Rat.unity",
               "Assets/Scenes/FightScenes/Ice Rat.unity",
               "Assets/Scenes/FightScenes/Magma Rat.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity",
+              "Assets/Scenes/Narative Scenes/1-Outside.unity",
+              "Assets/Scenes/Narative Scenes/2.1-Redundant.unity",
+              "Assets/Scenes/Narative Scenes/2-Auditorium.unity",
+              "Assets/Scenes/Narative Scenes/3.1-Hub.unity",
+              "Assets/Scenes/Narative Scenes/3-Hub.unity",
+              "Assets/Scenes/Narative Scenes/4-SpellLibrary.unity",
+              "Assets/Scenes/Win.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -194,14 +214,18 @@
             "name": "GameObject",
             "scenes": [
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/FightScenes/Boss Rat.unity",
               "Assets/Scenes/FightScenes/Chaos Rat.unity",
               "Assets/Scenes/FightScenes/Earth Rat.unity",
               "Assets/Scenes/FightScenes/Ice Rat.unity",
               "Assets/Scenes/FightScenes/Magma Rat.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity",
+              "Assets/Scenes/Narative Scenes/1-Outside.unity",
+              "Assets/Scenes/Narative Scenes/2.1-Redundant.unity",
+              "Assets/Scenes/Narative Scenes/2-Auditorium.unity",
+              "Assets/Scenes/Narative Scenes/3.1-Hub.unity",
+              "Assets/Scenes/Narative Scenes/3-Hub.unity",
+              "Assets/Scenes/Narative Scenes/4-SpellLibrary.unity",
+              "Assets/Scenes/Win.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -228,14 +252,18 @@
             "name": "LevelGameManager",
             "scenes": [
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/FightScenes/Boss Rat.unity",
               "Assets/Scenes/FightScenes/Chaos Rat.unity",
               "Assets/Scenes/FightScenes/Earth Rat.unity",
               "Assets/Scenes/FightScenes/Ice Rat.unity",
               "Assets/Scenes/FightScenes/Magma Rat.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity",
+              "Assets/Scenes/Narative Scenes/1-Outside.unity",
+              "Assets/Scenes/Narative Scenes/2.1-Redundant.unity",
+              "Assets/Scenes/Narative Scenes/2-Auditorium.unity",
+              "Assets/Scenes/Narative Scenes/3.1-Hub.unity",
+              "Assets/Scenes/Narative Scenes/3-Hub.unity",
+              "Assets/Scenes/Narative Scenes/4-SpellLibrary.unity",
+              "Assets/Scenes/Win.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -244,14 +272,18 @@
             "name": "Light",
             "scenes": [
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/FightScenes/Boss Rat.unity",
               "Assets/Scenes/FightScenes/Chaos Rat.unity",
               "Assets/Scenes/FightScenes/Earth Rat.unity",
               "Assets/Scenes/FightScenes/Ice Rat.unity",
               "Assets/Scenes/FightScenes/Magma Rat.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity",
+              "Assets/Scenes/Narative Scenes/1-Outside.unity",
+              "Assets/Scenes/Narative Scenes/2.1-Redundant.unity",
+              "Assets/Scenes/Narative Scenes/2-Auditorium.unity",
+              "Assets/Scenes/Narative Scenes/3.1-Hub.unity",
+              "Assets/Scenes/Narative Scenes/3-Hub.unity",
+              "Assets/Scenes/Narative Scenes/4-SpellLibrary.unity",
+              "Assets/Scenes/Win.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -272,14 +304,18 @@
             "name": "LightmapSettings",
             "scenes": [
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/FightScenes/Boss Rat.unity",
               "Assets/Scenes/FightScenes/Chaos Rat.unity",
               "Assets/Scenes/FightScenes/Earth Rat.unity",
               "Assets/Scenes/FightScenes/Ice Rat.unity",
               "Assets/Scenes/FightScenes/Magma Rat.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity",
+              "Assets/Scenes/Narative Scenes/1-Outside.unity",
+              "Assets/Scenes/Narative Scenes/2.1-Redundant.unity",
+              "Assets/Scenes/Narative Scenes/2-Auditorium.unity",
+              "Assets/Scenes/Narative Scenes/3.1-Hub.unity",
+              "Assets/Scenes/Narative Scenes/3-Hub.unity",
+              "Assets/Scenes/Narative Scenes/4-SpellLibrary.unity",
+              "Assets/Scenes/Win.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -294,14 +330,18 @@
             "name": "Material",
             "scenes": [
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/FightScenes/Boss Rat.unity",
               "Assets/Scenes/FightScenes/Chaos Rat.unity",
               "Assets/Scenes/FightScenes/Earth Rat.unity",
               "Assets/Scenes/FightScenes/Ice Rat.unity",
               "Assets/Scenes/FightScenes/Magma Rat.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity",
+              "Assets/Scenes/Narative Scenes/1-Outside.unity",
+              "Assets/Scenes/Narative Scenes/2.1-Redundant.unity",
+              "Assets/Scenes/Narative Scenes/2-Auditorium.unity",
+              "Assets/Scenes/Narative Scenes/3.1-Hub.unity",
+              "Assets/Scenes/Narative Scenes/3-Hub.unity",
+              "Assets/Scenes/Narative Scenes/4-SpellLibrary.unity",
+              "Assets/Scenes/Win.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -320,7 +360,12 @@
           },
           {
             "name": "MeshRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -328,9 +373,18 @@
             "name": "MonoBehaviour",
             "scenes": [
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity",
+              "Assets/Scenes/Narative Scenes/1-Outside.unity",
+              "Assets/Scenes/Narative Scenes/2.1-Redundant.unity",
+              "Assets/Scenes/Narative Scenes/2-Auditorium.unity",
+              "Assets/Scenes/Narative Scenes/3.1-Hub.unity",
+              "Assets/Scenes/Narative Scenes/3-Hub.unity",
+              "Assets/Scenes/Narative Scenes/4-SpellLibrary.unity",
+              "Assets/Scenes/Win.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -345,9 +399,18 @@
             "name": "MonoScript",
             "scenes": [
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity",
+              "Assets/Scenes/Narative Scenes/1-Outside.unity",
+              "Assets/Scenes/Narative Scenes/2.1-Redundant.unity",
+              "Assets/Scenes/Narative Scenes/2-Auditorium.unity",
+              "Assets/Scenes/Narative Scenes/3.1-Hub.unity",
+              "Assets/Scenes/Narative Scenes/3-Hub.unity",
+              "Assets/Scenes/Narative Scenes/4-SpellLibrary.unity",
+              "Assets/Scenes/Win.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -356,14 +419,18 @@
             "name": "NamedObject",
             "scenes": [
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/FightScenes/Boss Rat.unity",
               "Assets/Scenes/FightScenes/Chaos Rat.unity",
               "Assets/Scenes/FightScenes/Earth Rat.unity",
               "Assets/Scenes/FightScenes/Ice Rat.unity",
               "Assets/Scenes/FightScenes/Magma Rat.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity",
+              "Assets/Scenes/Narative Scenes/1-Outside.unity",
+              "Assets/Scenes/Narative Scenes/2.1-Redundant.unity",
+              "Assets/Scenes/Narative Scenes/2-Auditorium.unity",
+              "Assets/Scenes/Narative Scenes/3.1-Hub.unity",
+              "Assets/Scenes/Narative Scenes/3-Hub.unity",
+              "Assets/Scenes/Narative Scenes/4-SpellLibrary.unity",
+              "Assets/Scenes/Win.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -396,9 +463,18 @@
             "name": "RectTransform",
             "scenes": [
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity",
+              "Assets/Scenes/Narative Scenes/1-Outside.unity",
+              "Assets/Scenes/Narative Scenes/2.1-Redundant.unity",
+              "Assets/Scenes/Narative Scenes/2-Auditorium.unity",
+              "Assets/Scenes/Narative Scenes/3.1-Hub.unity",
+              "Assets/Scenes/Narative Scenes/3-Hub.unity",
+              "Assets/Scenes/Narative Scenes/4-SpellLibrary.unity",
+              "Assets/Scenes/Win.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -413,14 +489,18 @@
             "name": "RenderSettings",
             "scenes": [
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/FightScenes/Boss Rat.unity",
               "Assets/Scenes/FightScenes/Chaos Rat.unity",
               "Assets/Scenes/FightScenes/Earth Rat.unity",
               "Assets/Scenes/FightScenes/Ice Rat.unity",
               "Assets/Scenes/FightScenes/Magma Rat.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity",
+              "Assets/Scenes/Narative Scenes/1-Outside.unity",
+              "Assets/Scenes/Narative Scenes/2.1-Redundant.unity",
+              "Assets/Scenes/Narative Scenes/2-Auditorium.unity",
+              "Assets/Scenes/Narative Scenes/3.1-Hub.unity",
+              "Assets/Scenes/Narative Scenes/3-Hub.unity",
+              "Assets/Scenes/Narative Scenes/4-SpellLibrary.unity",
+              "Assets/Scenes/Win.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -433,18 +513,8 @@
           },
           {
             "name": "Renderer",
-            "scenes": [
-              "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/FightScenes/Boss Rat.unity",
-              "Assets/Scenes/FightScenes/Chaos Rat.unity",
-              "Assets/Scenes/FightScenes/Earth Rat.unity",
-              "Assets/Scenes/FightScenes/Ice Rat.unity",
-              "Assets/Scenes/FightScenes/Magma Rat.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
-            ],
-            "dependencyType": 0,
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
@@ -463,14 +533,18 @@
             "name": "Shader",
             "scenes": [
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/FightScenes/Boss Rat.unity",
               "Assets/Scenes/FightScenes/Chaos Rat.unity",
               "Assets/Scenes/FightScenes/Earth Rat.unity",
               "Assets/Scenes/FightScenes/Ice Rat.unity",
               "Assets/Scenes/FightScenes/Magma Rat.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity",
+              "Assets/Scenes/Narative Scenes/1-Outside.unity",
+              "Assets/Scenes/Narative Scenes/2.1-Redundant.unity",
+              "Assets/Scenes/Narative Scenes/2-Auditorium.unity",
+              "Assets/Scenes/Narative Scenes/3.1-Hub.unity",
+              "Assets/Scenes/Narative Scenes/3-Hub.unity",
+              "Assets/Scenes/Narative Scenes/4-SpellLibrary.unity",
+              "Assets/Scenes/Win.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -491,14 +565,18 @@
             "name": "Sprite",
             "scenes": [
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/FightScenes/Boss Rat.unity",
               "Assets/Scenes/FightScenes/Chaos Rat.unity",
               "Assets/Scenes/FightScenes/Earth Rat.unity",
               "Assets/Scenes/FightScenes/Ice Rat.unity",
               "Assets/Scenes/FightScenes/Magma Rat.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity",
+              "Assets/Scenes/Narative Scenes/1-Outside.unity",
+              "Assets/Scenes/Narative Scenes/2.1-Redundant.unity",
+              "Assets/Scenes/Narative Scenes/2-Auditorium.unity",
+              "Assets/Scenes/Narative Scenes/3.1-Hub.unity",
+              "Assets/Scenes/Narative Scenes/3-Hub.unity",
+              "Assets/Scenes/Narative Scenes/4-SpellLibrary.unity",
+              "Assets/Scenes/Win.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -513,14 +591,18 @@
             "name": "SpriteRenderer",
             "scenes": [
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/FightScenes/Boss Rat.unity",
               "Assets/Scenes/FightScenes/Chaos Rat.unity",
               "Assets/Scenes/FightScenes/Earth Rat.unity",
               "Assets/Scenes/FightScenes/Ice Rat.unity",
               "Assets/Scenes/FightScenes/Magma Rat.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity",
+              "Assets/Scenes/Narative Scenes/1-Outside.unity",
+              "Assets/Scenes/Narative Scenes/2.1-Redundant.unity",
+              "Assets/Scenes/Narative Scenes/2-Auditorium.unity",
+              "Assets/Scenes/Narative Scenes/3.1-Hub.unity",
+              "Assets/Scenes/Narative Scenes/3-Hub.unity",
+              "Assets/Scenes/Narative Scenes/4-SpellLibrary.unity",
+              "Assets/Scenes/Win.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -602,6 +684,18 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.jsonserialize"
+          },
+          {
+            "name": "Required by ParticleSystem Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.particlesystem"
+          },
+          {
+            "name": "Required by Physics Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.physics"
           },
           {
             "name": "Required by RuntimeInitializeOnLoadManagerInitializer Module",
@@ -693,6 +787,61 @@
         ]
       },
       {
+        "name": "ParticleSystem",
+        "dependencies": [
+          {
+            "name": "ParticleSystem",
+            "scenes": [
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "ParticleSystemRenderer",
+            "scenes": [
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          }
+        ]
+      },
+      {
+        "name": "Physics",
+        "dependencies": [
+          {
+            "name": "BoxCollider",
+            "scenes": [
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Collider",
+            "scenes": [],
+            "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "PhysicsManager",
+            "scenes": [],
+            "dependencyType": 1,
+            "icon": null
+          }
+        ]
+      },
+      {
         "name": "RuntimeInitializeOnLoadManagerInitializer",
         "dependencies": [
           {
@@ -741,6 +890,18 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.jsonserialize"
+          },
+          {
+            "name": "Required by ParticleSystem Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.particlesystem"
+          },
+          {
+            "name": "Required by Physics Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.physics"
           },
           {
             "name": "Required by RuntimeInitializeOnLoadManagerInitializer Module",
@@ -827,9 +988,18 @@
             "name": "Font",
             "scenes": [
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity",
+              "Assets/Scenes/Narative Scenes/1-Outside.unity",
+              "Assets/Scenes/Narative Scenes/2.1-Redundant.unity",
+              "Assets/Scenes/Narative Scenes/2-Auditorium.unity",
+              "Assets/Scenes/Narative Scenes/3.1-Hub.unity",
+              "Assets/Scenes/Narative Scenes/3-Hub.unity",
+              "Assets/Scenes/Narative Scenes/4-SpellLibrary.unity",
+              "Assets/Scenes/Win.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -873,9 +1043,18 @@
             "name": "Canvas",
             "scenes": [
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity",
+              "Assets/Scenes/Narative Scenes/1-Outside.unity",
+              "Assets/Scenes/Narative Scenes/2.1-Redundant.unity",
+              "Assets/Scenes/Narative Scenes/2-Auditorium.unity",
+              "Assets/Scenes/Narative Scenes/3.1-Hub.unity",
+              "Assets/Scenes/Narative Scenes/3-Hub.unity",
+              "Assets/Scenes/Narative Scenes/4-SpellLibrary.unity",
+              "Assets/Scenes/Win.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -890,9 +1069,18 @@
             "name": "CanvasRenderer",
             "scenes": [
               "Assets/Scenes/Dungeon.unity",
-              "Assets/Scenes/HomeScreen.unity",
-              "Assets/Scenes/HubNew.unity",
-              "Assets/Scenes/SpellLibrary.unity"
+              "Assets/Scenes/FightScenes/Chaos Rat.unity",
+              "Assets/Scenes/FightScenes/Earth Rat.unity",
+              "Assets/Scenes/FightScenes/Ice Rat.unity",
+              "Assets/Scenes/FightScenes/Magma Rat.unity",
+              "Assets/Scenes/Narative Scenes/0-HomeScreen.unity",
+              "Assets/Scenes/Narative Scenes/1-Outside.unity",
+              "Assets/Scenes/Narative Scenes/2.1-Redundant.unity",
+              "Assets/Scenes/Narative Scenes/2-Auditorium.unity",
+              "Assets/Scenes/Narative Scenes/3.1-Hub.unity",
+              "Assets/Scenes/Narative Scenes/3-Hub.unity",
+              "Assets/Scenes/Narative Scenes/4-SpellLibrary.unity",
+              "Assets/Scenes/Win.unity"
             ],
             "dependencyType": 0,
             "icon": null

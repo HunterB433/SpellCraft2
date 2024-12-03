@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3428201771975350247}
   - component: {fileID: 6739000348568527407}
   - component: {fileID: 672267110468004354}
+  - component: {fileID: 3898918709641441133}
   m_Layer: 0
   m_Name: EnemyPrefab
   m_TagString: Untagged
@@ -95,15 +96,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 900366720597659723}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1518eb4819e2c9d4bbf0588eb95beccb, type: 3}
+  m_Script: {fileID: 11500000, guid: e7f20817bc08aaf4293c3ca89bbdce6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 
-  damage: 0
-  cardSprite: {fileID: 0}
-  maxHealth: 100
-  health: 100
-  HealthBar: {fileID: 6441644310042380097}
+  maxHealth: 10
+  currentHealth: 0
+  minAttackDamage: 2
+  maxAttackDamage: 4
+--- !u!114 &3898918709641441133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900366720597659723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cc03dc62d09f4747a48b8646530a13b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyFront: {fileID: 822345820489779455, guid: 1ab32e23d60204f468f9228734ea90b7, type: 3}
+  healthText: {fileID: 1243868563541452564, guid: 02ac3e348e451e744a2981d056ae2ac3, type: 3}
+  enemyStats: {fileID: 0}
 --- !u!1 &2176903353370937407
 GameObject:
   m_ObjectHideFlags: 0

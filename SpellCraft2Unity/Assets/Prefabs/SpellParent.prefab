@@ -267,6 +267,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1684556204493398908}
   - component: {fileID: 1390050643010908897}
+  - component: {fileID: 7412378745992840553}
+  - component: {fileID: -1479702295112219951}
   m_Layer: 0
   m_Name: SpellParent
   m_TagString: Untagged
@@ -304,6 +306,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   power: 0
   typeChar: 67
+--- !u!65 &7412378745992840553
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7210232309809186245}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.030532, y: 4.5254536, z: 0.30018124}
+  m_Center: {x: 0.009231409, y: -0.26806325, z: 0.014629006}
+--- !u!114 &-1479702295112219951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7210232309809186245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2ce71095dc2c5a4585df260fd9548c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7267673119282110753
 GameObject:
   m_ObjectHideFlags: 0

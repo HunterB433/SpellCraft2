@@ -14,7 +14,7 @@ public class LevelSelector : MonoBehaviour
 
     private void Awake()
     {
-        int unlockedLevel = PlayerPrefs.GetInt("UnlockedLevel", 5);
+        int unlockedLevel = PlayerPrefs.GetInt("UnlockedLevel", 1);
 
         //first set all the buttons to un-interactable
         for (int i = 0; i < buttons.Length; i++)

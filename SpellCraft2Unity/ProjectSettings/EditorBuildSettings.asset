@@ -6,30 +6,42 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/HomeScreen.unity
+    path: Assets/Scenes/Narative Scenes/0-HomeScreen.unity
     guid: 013627d6c208d0a4d8d290e9253591ed
   - enabled: 1
-    path: Assets/Scenes/HubNew.unity
-    guid: 6365ce86527ead64786c8f7edcd13006
-  - enabled: 1
-    path: Assets/Scenes/SpellLibrary.unity
-    guid: 5c94f46bfb46fc449ac9823b50cc3072
-  - enabled: 1
-    path: Assets/Scenes/Dungeon.unity
-    guid: eba65f14f25e4894b80d5c58076542e6
-  - enabled: 1
     path: Assets/Scenes/FightScenes/Ice Rat.unity
-    guid: 59f47e23203c1f249a1e72b1129a53f2
+    guid: 145a5e9d3352d9e48adfa7125ecd45a1
   - enabled: 1
     path: Assets/Scenes/FightScenes/Magma Rat.unity
     guid: 04c089df46e9cb043840289e0fbc0220
   - enabled: 1
     path: Assets/Scenes/FightScenes/Earth Rat.unity
-    guid: bd3898bfaa91c4b42ba2fa30d81fe8c9
+    guid: 02cecd94c5ca54f4b9261ecadb684d47
   - enabled: 1
     path: Assets/Scenes/FightScenes/Chaos Rat.unity
-    guid: 00cbfe105647c8c43a8f971fc9dab683
+    guid: 4aa1f3fa5ce2a9045865788e166c7b22
   - enabled: 1
-    path: Assets/Scenes/FightScenes/Boss Rat.unity
-    guid: 9640af689c30e5343a6cfd49adf38b40
+    path: Assets/Scenes/Narative Scenes/1-Outside.unity
+    guid: 7d6b3829b1b0da943ad9762e6b369764
+  - enabled: 1
+    path: Assets/Scenes/Narative Scenes/2-Auditorium.unity
+    guid: a5ca911ebfaf11946aa3938d59a82827
+  - enabled: 1
+    path: Assets/Scenes/Narative Scenes/2.1-Redundant.unity
+    guid: f2d703a3c4ec12241bf549cc3c298ff8
+  - enabled: 1
+    path: Assets/Scenes/Narative Scenes/3-Hub.unity
+    guid: 6365ce86527ead64786c8f7edcd13006
+  - enabled: 1
+    path: Assets/Scenes/Narative Scenes/3.1-Hub.unity
+    guid: 46e36ec2a4b22914c9d13a32c23f2f72
+  - enabled: 1
+    path: Assets/Scenes/Narative Scenes/4-SpellLibrary.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Dungeon.unity
+    guid: eba65f14f25e4894b80d5c58076542e6
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: a2c940dce04fe4045910c3d0c6d5ab7e
   m_configObjects: {}

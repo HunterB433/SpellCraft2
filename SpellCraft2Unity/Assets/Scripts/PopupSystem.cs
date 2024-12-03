@@ -6,6 +6,9 @@ using Unity.VisualScripting;
 
 public class PopupSystem : MonoBehaviour
 {
+    public SceneController sceneController;
+    public GameObject otherCanvas;
+
     public GameObject PopupPane;            // Panel for the PopUp (USE PREFAB)
     public Image tempImage;                 // The Image component in the panel
     public TextMeshProUGUI dialogueText;    // The TextMeshProUGUI DIALOGUE component in the panel
@@ -18,6 +21,9 @@ public class PopupSystem : MonoBehaviour
 
     public string ToBeTitle;
 
+    public bool InstaPlay;
+    public bool InstaSkip;
+
     public List<Sprite> images = new List<Sprite>();                     // List to hold all images to display
     [SerializeField] private List<string> messages = new List<string>(); // List to hold multiple messages
     [SerializeField] private List<int> imageIndices = new List<int>();   // Array of image indices corresponding to the messages
@@ -26,8 +32,13 @@ public class PopupSystem : MonoBehaviour
 
     void Start()
     {
-        // Initially, disable the PopupPane
-        PopupPane.SetActive(false);
+        if (InstaPlay)
+        { 
+        PopupPane.SetActive(true);
+        otherCanvas?.SetActive(false);
+        }
+        else
+            PopupPane.SetActive(false);
 
         // Initially set the image and first message
         if (images.Count > 0 && messages.Count > 0)
@@ -41,13 +52,15 @@ public class PopupSystem : MonoBehaviour
         nextButton.onClick.AddListener(OnNextButtonClicked);
         // Add a listener to the play button to trigger scene
         playGuideButton.onClick.AddListener(OnPlayButtonClicked);
+
+        titleText.text = ToBeTitle;
     }
     void OnPlayButtonClicked()
     {
         // When the Play button is clicked, enable the PopupPane
         PopupPane.SetActive(true);
         HideButton(playGuideButton);
-        titleText.text = ToBeTitle;
+        otherCanvas?.SetActive(false);
     }
 
     void OnNextButtonClicked()
@@ -77,8 +90,16 @@ public class PopupSystem : MonoBehaviour
         {
             // Hide the Panel after showing all messages
             // Make the START button Show up
-            HidePanel();
-            ShowButton(startButton);
+            if (!InstaSkip)
+            {
+                HidePanel();
+                ShowButton(startButton);
+                otherCanvas?.SetActive(true);
+            }
+            else
+            {
+                sceneController.LoadSceneByButton(startButton);
+            }
         }
     }
 

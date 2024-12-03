@@ -418,7 +418,10 @@
         410,
         411,
         412,
-        413
+        413,
+        414,
+        415,
+        416
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -1434,7 +1437,7 @@
     {
       "Annotation": "IL2CPP_CodeGen C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/il2cpp_conv_8l88.traceevents",
       "DisplayName": "IL2CPP_CodeGen il2cpp_conv_8l88",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\il2cpp/build/deploy/il2cpp.exe\" --convert-to-cpp --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Assembly-CSharp.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Mono.Security.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/mscorlib.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.Configuration.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.Core.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.Xml.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Unity.TextMeshPro.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AnimationModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AudioModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.CoreModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.GridModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.IMGUIModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.InputLegacyModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.Physics2DModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PhysicsModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PropertiesModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SharedInternalsModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SpriteShapeModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TextCoreFontEngineModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TextCoreTextEngineModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TextRenderingModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TilemapModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.UI.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.UIElementsModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.UIModule.dll\" --generatedcppdir=\"C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" --symbols-folder=\"C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Symbols\" --enable-analytics --emit-method-map --dotnetprofile=unityaot-linux --profiler-report --profiler-output-file=\"C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/il2cpp_conv_8l88.traceevents\" --print-command-line --data-folder=\"C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/data\"",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\il2cpp/build/deploy/il2cpp.exe\" --convert-to-cpp --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Assembly-CSharp.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Mono.Security.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/mscorlib.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.Configuration.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.Core.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/System.Xml.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/Unity.TextMeshPro.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AnimationModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AudioModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.CoreModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.GridModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.IMGUIModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.InputLegacyModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.ParticleSystemModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.Physics2DModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PhysicsModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PropertiesModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SharedInternalsModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SpriteShapeModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TextCoreFontEngineModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TextCoreTextEngineModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TextRenderingModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TilemapModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.UI.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.UIElementsModule.dll\" --assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.UIModule.dll\" --generatedcppdir=\"C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" --symbols-folder=\"C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Symbols\" --enable-analytics --emit-method-map --dotnetprofile=unityaot-linux --profiler-report --profiler-output-file=\"C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/il2cpp_conv_8l88.traceevents\" --print-command-line --data-folder=\"C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/data\"",
       "ProfilerOutput": "C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/il2cpp_conv_8l88.traceevents",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/il2cpp/build/deploy/Analytics.Api.Output.dll",
@@ -1756,6 +1759,7 @@
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.GridModule.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.IMGUIModule.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.InputLegacyModule.dll",
+        "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.ParticleSystemModule.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.Physics2DModule.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PhysicsModule.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PropertiesModule.dll",
@@ -1901,7 +1905,7 @@
     {
       "Annotation": "ICallRegistrationGenerator C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/UnityICallRegistration.cpp",
       "DisplayName": "ICallRegistrationGenerator UnityICallRegistration",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/bin/mono\" \"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/InternalCallRegistrationWriter/InternalCallRegistrationWriter.exe\" -output=\"C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/UnityICallRegistration.cpp\" -summary=\"Library/Bee/artifacts/WebGL/ManagedStripped/icallsummary.txt\" -assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AnimationModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AudioModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.CoreModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.GridModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.IMGUIModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.InputLegacyModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.Physics2DModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PhysicsModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PropertiesModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SharedInternalsModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SpriteShapeModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TextCoreFontEngineModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TextCoreTextEngineModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TextRenderingModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TilemapModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.UIElementsModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.UIModule.dll\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/bin/mono\" \"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Tools/InternalCallRegistrationWriter/InternalCallRegistrationWriter.exe\" -output=\"C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/UnityICallRegistration.cpp\" -summary=\"Library/Bee/artifacts/WebGL/ManagedStripped/icallsummary.txt\" -assembly=\"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AnimationModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AudioModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.CoreModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.GridModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.IMGUIModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.InputLegacyModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.ParticleSystemModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.Physics2DModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PhysicsModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PropertiesModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SharedInternalsModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.SpriteShapeModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TextCoreFontEngineModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TextCoreTextEngineModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TextRenderingModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TilemapModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.UIElementsModule.dll;Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.UIModule.dll\"",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AnimationModule.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AudioModule.dll",
@@ -1909,6 +1913,7 @@
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.GridModule.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.IMGUIModule.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.InputLegacyModule.dll",
+        "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.ParticleSystemModule.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.Physics2DModule.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PhysicsModule.dll",
         "Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PropertiesModule.dll",
@@ -12205,6 +12210,57 @@
       "ScannerIndex": 3
     },
     {
+      "Annotation": "C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dqmygrwokhzm.o",
+      "DisplayName": "Compiling Cpp for GameAssembly (wasm)",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat\" -D__webgl__ -Wno-warn-absolute-paths -Wno-c++11-extensions -Wno-nonportable-include-path -ffunction-sections -fno-unwind-tables -fomit-frame-pointer -fno-threadsafe-statics -std=c++11 -Wno-#warnings -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -fno-rtti -O3 -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -D_GLIBCXX_USE_CXX11_ABI=0 -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DHAVE_BDWGC_GC -DNDEBUG -I\".\" -I\"C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" -I\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/il2cpp/libil2cpp/pch\" -I\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/il2cpp/libil2cpp\" -I\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/il2cpp/external/baselib/Include\" -I\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/il2cpp/libil2cpp/os/ClassLibraryPAL/brotli/include\" -I\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/il2cpp/external/baselib/Platforms/WebGL/Include\" -o \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dqmygrwokhzm.o\" -fcolor-diagnostics -fdiagnostics-absolute-paths -c -xc++ \"C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__45.cpp\"",
+      "Inputs": [
+        "C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__45.cpp",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar.bat",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dqmygrwokhzm.o"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "EM_CONFIG",
+          "Value": "C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\.emscripten"
+        },
+        {
+          "Key": "EMSDK_PYTHON",
+          "Value": "C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\python\\python.exe"
+        },
+        {
+          "Key": "EMCC_SKIP_SANITY_CHECK",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_FROZEN_CACHE",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_PYTHON_BUG_34780",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_WIN7_BAD_ERRORLEVEL_BUG",
+          "Value": "1"
+        },
+        {
+          "Key": "PYTHONUTF8",
+          "Value": "1"
+        }
+      ],
+      "DebugActionIndex": 252,
+      "ScannerIndex": 3
+    },
+    {
       "Annotation": "C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/j3nlv8kgqbqt.o",
       "DisplayName": "Compiling Cpp for GameAssembly (wasm)",
       "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat\" -D__webgl__ -Wno-warn-absolute-paths -Wno-c++11-extensions -Wno-nonportable-include-path -ffunction-sections -fno-unwind-tables -fomit-frame-pointer -fno-threadsafe-statics -std=c++11 -Wno-#warnings -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -fno-rtti -O3 -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -D_GLIBCXX_USE_CXX11_ABI=0 -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DHAVE_BDWGC_GC -DNDEBUG -I\".\" -I\"C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" -I\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/il2cpp/libil2cpp/pch\" -I\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/il2cpp/libil2cpp\" -I\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/il2cpp/external/baselib/Include\" -I\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/il2cpp/libil2cpp/os/ClassLibraryPAL/brotli/include\" -I\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/il2cpp/external/baselib/Platforms/WebGL/Include\" -o \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/j3nlv8kgqbqt.o\" -fcolor-diagnostics -fdiagnostics-absolute-paths -c -xc++ \"C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__5.cpp\"",
@@ -12252,7 +12308,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 252,
+      "DebugActionIndex": 253,
       "ScannerIndex": 3
     },
     {
@@ -12303,7 +12359,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 253,
+      "DebugActionIndex": 254,
       "ScannerIndex": 3
     },
     {
@@ -12354,7 +12410,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 254,
+      "DebugActionIndex": 255,
       "ScannerIndex": 3
     },
     {
@@ -12405,7 +12461,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 255,
+      "DebugActionIndex": 256,
       "ScannerIndex": 3
     },
     {
@@ -12456,7 +12512,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 256,
+      "DebugActionIndex": 257,
       "ScannerIndex": 3
     },
     {
@@ -12507,7 +12563,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 257,
+      "DebugActionIndex": 258,
       "ScannerIndex": 3
     },
     {
@@ -12558,7 +12614,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 258,
+      "DebugActionIndex": 259,
       "ScannerIndex": 3
     },
     {
@@ -12609,7 +12665,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 259,
+      "DebugActionIndex": 260,
       "ScannerIndex": 3
     },
     {
@@ -12660,7 +12716,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 260,
+      "DebugActionIndex": 261,
       "ScannerIndex": 3
     },
     {
@@ -12711,7 +12767,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 261,
+      "DebugActionIndex": 262,
       "ScannerIndex": 3
     },
     {
@@ -12762,7 +12818,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 262,
+      "DebugActionIndex": 263,
       "ScannerIndex": 3
     },
     {
@@ -12813,7 +12869,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 263,
+      "DebugActionIndex": 264,
       "ScannerIndex": 3
     },
     {
@@ -12864,7 +12920,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 264,
+      "DebugActionIndex": 265,
       "ScannerIndex": 3
     },
     {
@@ -12915,7 +12971,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 265,
+      "DebugActionIndex": 266,
       "ScannerIndex": 3
     },
     {
@@ -12966,7 +13022,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 266,
+      "DebugActionIndex": 267,
       "ScannerIndex": 3
     },
     {
@@ -13017,7 +13073,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 267,
+      "DebugActionIndex": 268,
       "ScannerIndex": 3
     },
     {
@@ -13068,7 +13124,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 268,
+      "DebugActionIndex": 269,
       "ScannerIndex": 3
     },
     {
@@ -13119,7 +13175,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 269,
+      "DebugActionIndex": 270,
       "ScannerIndex": 3
     },
     {
@@ -13170,7 +13226,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 270,
+      "DebugActionIndex": 271,
       "ScannerIndex": 3
     },
     {
@@ -13221,7 +13277,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 271,
+      "DebugActionIndex": 272,
       "ScannerIndex": 3
     },
     {
@@ -13272,7 +13328,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 272,
+      "DebugActionIndex": 273,
       "ScannerIndex": 3
     },
     {
@@ -13323,7 +13379,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 273,
+      "DebugActionIndex": 274,
       "ScannerIndex": 3
     },
     {
@@ -13374,7 +13430,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 274,
+      "DebugActionIndex": 275,
       "ScannerIndex": 3
     },
     {
@@ -13425,7 +13481,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 275,
+      "DebugActionIndex": 276,
       "ScannerIndex": 3
     },
     {
@@ -13476,7 +13532,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 276,
+      "DebugActionIndex": 277,
       "ScannerIndex": 3
     },
     {
@@ -13527,7 +13583,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 277,
+      "DebugActionIndex": 278,
       "ScannerIndex": 3
     },
     {
@@ -13578,7 +13634,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 278,
+      "DebugActionIndex": 279,
       "ScannerIndex": 3
     },
     {
@@ -13629,7 +13685,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 279,
+      "DebugActionIndex": 280,
       "ScannerIndex": 3
     },
     {
@@ -13680,7 +13736,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 280,
+      "DebugActionIndex": 281,
       "ScannerIndex": 3
     },
     {
@@ -13731,7 +13787,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 281,
+      "DebugActionIndex": 282,
       "ScannerIndex": 3
     },
     {
@@ -13782,7 +13838,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 282,
+      "DebugActionIndex": 283,
       "ScannerIndex": 3
     },
     {
@@ -13833,7 +13889,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 283,
+      "DebugActionIndex": 284,
       "ScannerIndex": 3
     },
     {
@@ -13884,7 +13940,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 284,
+      "DebugActionIndex": 285,
       "ScannerIndex": 3
     },
     {
@@ -13935,7 +13991,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 285,
+      "DebugActionIndex": 286,
       "ScannerIndex": 3
     },
     {
@@ -13986,7 +14042,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 286,
+      "DebugActionIndex": 287,
       "ScannerIndex": 3
     },
     {
@@ -14037,7 +14093,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 287,
+      "DebugActionIndex": 288,
       "ScannerIndex": 3
     },
     {
@@ -14088,7 +14144,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 288,
+      "DebugActionIndex": 289,
       "ScannerIndex": 3
     },
     {
@@ -14139,7 +14195,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 289,
+      "DebugActionIndex": 290,
       "ScannerIndex": 3
     },
     {
@@ -14190,7 +14246,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 290,
+      "DebugActionIndex": 291,
       "ScannerIndex": 3
     },
     {
@@ -14241,7 +14297,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 291,
+      "DebugActionIndex": 292,
       "ScannerIndex": 3
     },
     {
@@ -14292,7 +14348,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 292,
+      "DebugActionIndex": 293,
       "ScannerIndex": 3
     },
     {
@@ -14343,7 +14399,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 293,
+      "DebugActionIndex": 294,
       "ScannerIndex": 3
     },
     {
@@ -14394,7 +14450,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 294,
+      "DebugActionIndex": 295,
       "ScannerIndex": 3
     },
     {
@@ -14445,7 +14501,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 295,
+      "DebugActionIndex": 296,
       "ScannerIndex": 3
     },
     {
@@ -14496,7 +14552,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 296,
+      "DebugActionIndex": 297,
       "ScannerIndex": 3
     },
     {
@@ -14547,7 +14603,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 297,
+      "DebugActionIndex": 298,
       "ScannerIndex": 3
     },
     {
@@ -14598,7 +14654,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 298,
+      "DebugActionIndex": 299,
       "ScannerIndex": 3
     },
     {
@@ -14649,7 +14705,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 299,
+      "DebugActionIndex": 300,
       "ScannerIndex": 3
     },
     {
@@ -14700,7 +14756,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 300,
+      "DebugActionIndex": 301,
       "ScannerIndex": 3
     },
     {
@@ -14751,7 +14807,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 301,
+      "DebugActionIndex": 302,
       "ScannerIndex": 3
     },
     {
@@ -14802,7 +14858,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 302,
+      "DebugActionIndex": 303,
       "ScannerIndex": 3
     },
     {
@@ -14853,7 +14909,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 303,
+      "DebugActionIndex": 304,
       "ScannerIndex": 3
     },
     {
@@ -14904,7 +14960,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 304,
+      "DebugActionIndex": 305,
       "ScannerIndex": 3
     },
     {
@@ -14955,7 +15011,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 305,
+      "DebugActionIndex": 306,
       "ScannerIndex": 3
     },
     {
@@ -15006,7 +15062,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 306,
+      "DebugActionIndex": 307,
       "ScannerIndex": 3
     },
     {
@@ -15057,7 +15113,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 307,
+      "DebugActionIndex": 308,
       "ScannerIndex": 3
     },
     {
@@ -15108,7 +15164,58 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 308,
+      "DebugActionIndex": 309,
+      "ScannerIndex": 3
+    },
+    {
+      "Annotation": "C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kn3lanbnzxci.o",
+      "DisplayName": "Compiling Cpp for GameAssembly (wasm)",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat\" -D__webgl__ -Wno-warn-absolute-paths -Wno-c++11-extensions -Wno-nonportable-include-path -ffunction-sections -fno-unwind-tables -fomit-frame-pointer -fno-threadsafe-statics -std=c++11 -Wno-#warnings -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -fno-rtti -O3 -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -D_GLIBCXX_USE_CXX11_ABI=0 -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DHAVE_BDWGC_GC -DNDEBUG -I\".\" -I\"C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" -I\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/il2cpp/libil2cpp/pch\" -I\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/il2cpp/libil2cpp\" -I\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/il2cpp/external/baselib/Include\" -I\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/il2cpp/libil2cpp/os/ClassLibraryPAL/brotli/include\" -I\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/il2cpp/external/baselib/Platforms/WebGL/Include\" -o \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kn3lanbnzxci.o\" -fcolor-diagnostics -fdiagnostics-absolute-paths -c -xc++ \"C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.ParticleSystemModule.cpp\"",
+      "Inputs": [
+        "C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.ParticleSystemModule.cpp",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar.bat",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kn3lanbnzxci.o"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "EM_CONFIG",
+          "Value": "C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\.emscripten"
+        },
+        {
+          "Key": "EMSDK_PYTHON",
+          "Value": "C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\python\\python.exe"
+        },
+        {
+          "Key": "EMCC_SKIP_SANITY_CHECK",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_FROZEN_CACHE",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_PYTHON_BUG_34780",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_WIN7_BAD_ERRORLEVEL_BUG",
+          "Value": "1"
+        },
+        {
+          "Key": "PYTHONUTF8",
+          "Value": "1"
+        }
+      ],
+      "DebugActionIndex": 310,
       "ScannerIndex": 3
     },
     {
@@ -15159,7 +15266,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 309,
+      "DebugActionIndex": 311,
       "ScannerIndex": 3
     },
     {
@@ -15210,7 +15317,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 310,
+      "DebugActionIndex": 312,
       "ScannerIndex": 3
     },
     {
@@ -15261,7 +15368,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 311,
+      "DebugActionIndex": 313,
       "ScannerIndex": 3
     },
     {
@@ -15312,7 +15419,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 312,
+      "DebugActionIndex": 314,
       "ScannerIndex": 3
     },
     {
@@ -15363,7 +15470,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 313,
+      "DebugActionIndex": 315,
       "ScannerIndex": 3
     },
     {
@@ -15414,7 +15521,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 314,
+      "DebugActionIndex": 316,
       "ScannerIndex": 3
     },
     {
@@ -15465,7 +15572,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 315,
+      "DebugActionIndex": 317,
       "ScannerIndex": 3
     },
     {
@@ -15516,7 +15623,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 316,
+      "DebugActionIndex": 318,
       "ScannerIndex": 3
     },
     {
@@ -15567,7 +15674,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 317,
+      "DebugActionIndex": 319,
       "ScannerIndex": 3
     },
     {
@@ -15618,7 +15725,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 318,
+      "DebugActionIndex": 320,
       "ScannerIndex": 3
     },
     {
@@ -15669,7 +15776,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 319,
+      "DebugActionIndex": 321,
       "ScannerIndex": 3
     },
     {
@@ -15720,7 +15827,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 320,
+      "DebugActionIndex": 322,
       "ScannerIndex": 3
     },
     {
@@ -15771,7 +15878,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 321,
+      "DebugActionIndex": 323,
       "ScannerIndex": 3
     },
     {
@@ -15822,7 +15929,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 322,
+      "DebugActionIndex": 324,
       "ScannerIndex": 3
     },
     {
@@ -15873,7 +15980,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 323,
+      "DebugActionIndex": 325,
       "ScannerIndex": 3
     },
     {
@@ -15924,7 +16031,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 324,
+      "DebugActionIndex": 326,
       "ScannerIndex": 3
     },
     {
@@ -15975,7 +16082,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 325,
+      "DebugActionIndex": 327,
       "ScannerIndex": 3
     },
     {
@@ -16026,7 +16133,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 326,
+      "DebugActionIndex": 328,
       "ScannerIndex": 3
     },
     {
@@ -16077,7 +16184,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 327,
+      "DebugActionIndex": 329,
       "ScannerIndex": 3
     },
     {
@@ -16128,7 +16235,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 328,
+      "DebugActionIndex": 330,
       "ScannerIndex": 3
     },
     {
@@ -16179,7 +16286,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 329,
+      "DebugActionIndex": 331,
       "ScannerIndex": 3
     },
     {
@@ -16230,7 +16337,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 330,
+      "DebugActionIndex": 332,
       "ScannerIndex": 3
     },
     {
@@ -16281,7 +16388,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 331,
+      "DebugActionIndex": 333,
       "ScannerIndex": 3
     },
     {
@@ -16332,7 +16439,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 332,
+      "DebugActionIndex": 334,
       "ScannerIndex": 3
     },
     {
@@ -16383,7 +16490,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 333,
+      "DebugActionIndex": 335,
       "ScannerIndex": 3
     },
     {
@@ -16434,7 +16541,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 334,
+      "DebugActionIndex": 336,
       "ScannerIndex": 3
     },
     {
@@ -16485,7 +16592,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 335,
+      "DebugActionIndex": 337,
       "ScannerIndex": 3
     },
     {
@@ -16536,7 +16643,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 336,
+      "DebugActionIndex": 338,
       "ScannerIndex": 3
     },
     {
@@ -16587,7 +16694,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 337,
+      "DebugActionIndex": 339,
       "ScannerIndex": 3
     },
     {
@@ -16638,7 +16745,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 338,
+      "DebugActionIndex": 340,
       "ScannerIndex": 3
     },
     {
@@ -16689,7 +16796,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 339,
+      "DebugActionIndex": 341,
       "ScannerIndex": 3
     },
     {
@@ -16740,7 +16847,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 340,
+      "DebugActionIndex": 342,
       "ScannerIndex": 3
     },
     {
@@ -16791,7 +16898,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 341,
+      "DebugActionIndex": 343,
       "ScannerIndex": 3
     },
     {
@@ -16842,7 +16949,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 342,
+      "DebugActionIndex": 344,
       "ScannerIndex": 3
     },
     {
@@ -16893,7 +17000,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 343,
+      "DebugActionIndex": 345,
       "ScannerIndex": 3
     },
     {
@@ -16944,7 +17051,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 344,
+      "DebugActionIndex": 346,
       "ScannerIndex": 3
     },
     {
@@ -16995,7 +17102,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 345,
+      "DebugActionIndex": 347,
       "ScannerIndex": 3
     },
     {
@@ -17046,7 +17153,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 346,
+      "DebugActionIndex": 348,
       "ScannerIndex": 3
     },
     {
@@ -17097,7 +17204,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 347,
+      "DebugActionIndex": 349,
       "ScannerIndex": 3
     },
     {
@@ -17148,7 +17255,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 348,
+      "DebugActionIndex": 350,
       "ScannerIndex": 3
     },
     {
@@ -17199,7 +17306,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 349,
+      "DebugActionIndex": 351,
       "ScannerIndex": 3
     },
     {
@@ -17250,7 +17357,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 350,
+      "DebugActionIndex": 352,
       "ScannerIndex": 3
     },
     {
@@ -17301,7 +17408,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 351,
+      "DebugActionIndex": 353,
       "ScannerIndex": 3
     },
     {
@@ -17352,7 +17459,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 352,
+      "DebugActionIndex": 354,
       "ScannerIndex": 3
     },
     {
@@ -17403,7 +17510,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 353,
+      "DebugActionIndex": 355,
       "ScannerIndex": 3
     },
     {
@@ -17454,7 +17561,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 354,
+      "DebugActionIndex": 356,
       "ScannerIndex": 3
     },
     {
@@ -17505,7 +17612,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 355,
+      "DebugActionIndex": 357,
       "ScannerIndex": 3
     },
     {
@@ -17556,7 +17663,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 356,
+      "DebugActionIndex": 358,
       "ScannerIndex": 3
     },
     {
@@ -17607,7 +17714,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 357,
+      "DebugActionIndex": 359,
       "ScannerIndex": 3
     },
     {
@@ -17658,7 +17765,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 358,
+      "DebugActionIndex": 360,
       "ScannerIndex": 3
     },
     {
@@ -17709,7 +17816,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 359,
+      "DebugActionIndex": 361,
       "ScannerIndex": 3
     },
     {
@@ -17760,7 +17867,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 360,
+      "DebugActionIndex": 362,
       "ScannerIndex": 3
     },
     {
@@ -17811,7 +17918,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 361,
+      "DebugActionIndex": 363,
       "ScannerIndex": 3
     },
     {
@@ -17862,7 +17969,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 362,
+      "DebugActionIndex": 364,
       "ScannerIndex": 3
     },
     {
@@ -17913,7 +18020,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 363,
+      "DebugActionIndex": 365,
       "ScannerIndex": 3
     },
     {
@@ -17964,7 +18071,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 364,
+      "DebugActionIndex": 366,
       "ScannerIndex": 3
     },
     {
@@ -18015,7 +18122,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 365,
+      "DebugActionIndex": 367,
       "ScannerIndex": 3
     },
     {
@@ -18066,7 +18173,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 366,
+      "DebugActionIndex": 368,
       "ScannerIndex": 3
     },
     {
@@ -18117,7 +18224,58 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 367,
+      "DebugActionIndex": 369,
+      "ScannerIndex": 3
+    },
+    {
+      "Annotation": "C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8yd10y7ratvn.o",
+      "DisplayName": "Compiling C for GameAssembly (wasm)",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat\" -D__webgl__ -Wno-warn-absolute-paths -Wno-c++11-extensions -Wno-nonportable-include-path -ffunction-sections -fno-unwind-tables -fomit-frame-pointer -Wno-#warnings -Wswitch -Wno-trigraphs -Wno-tautological-compare -Wno-invalid-offsetof -Wno-implicitly-unsigned-literal -Wno-integer-overflow -Wno-shift-negative-value -Wno-unknown-attributes -Wno-implicit-function-declaration -Wno-null-conversion -Wno-missing-declarations -Wno-unused-value -Wno-pragma-once-outside-header -fvisibility=hidden -fexceptions -O3 -fno-strict-overflow -ffunction-sections -fdata-sections -fmessage-length=0 -pipe -D_GLIBCXX_USE_CXX11_ABI=0 -DBASELIB_INLINE_NAMESPACE=il2cpp_baselib -DIL2CPP_MONO_DEBUGGER_DISABLED -DRUNTIME_IL2CPP -DHAVE_BDWGC_GC -DNDEBUG -I\".\" -I\"C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/cpp\" -I\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/il2cpp/libil2cpp/pch\" -I\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/il2cpp/libil2cpp\" -I\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/il2cpp/external/baselib/Include\" -I\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/il2cpp/libil2cpp/os/ClassLibraryPAL/brotli/include\" -I\"C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/il2cpp/external/baselib/Platforms/WebGL/Include\" -o \"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8yd10y7ratvn.o\" -fcolor-diagnostics -fdiagnostics-absolute-paths -c -xc \"C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.ParticleSystemModule_CodeGen.c\"",
+      "Inputs": [
+        "C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.ParticleSystemModule_CodeGen.c",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emar.bat",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc.bat"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8yd10y7ratvn.o"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [
+        {
+          "Key": "EM_CONFIG",
+          "Value": "C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\.emscripten"
+        },
+        {
+          "Key": "EMSDK_PYTHON",
+          "Value": "C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.29f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\python\\python.exe"
+        },
+        {
+          "Key": "EMCC_SKIP_SANITY_CHECK",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_FROZEN_CACHE",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_PYTHON_BUG_34780",
+          "Value": "1"
+        },
+        {
+          "Key": "EM_WORKAROUND_WIN7_BAD_ERRORLEVEL_BUG",
+          "Value": "1"
+        },
+        {
+          "Key": "PYTHONUTF8",
+          "Value": "1"
+        }
+      ],
+      "DebugActionIndex": 370,
       "ScannerIndex": 3
     },
     {
@@ -18168,7 +18326,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 368,
+      "DebugActionIndex": 371,
       "ScannerIndex": 3
     },
     {
@@ -18219,7 +18377,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 369,
+      "DebugActionIndex": 372,
       "ScannerIndex": 3
     },
     {
@@ -18270,7 +18428,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 370,
+      "DebugActionIndex": 373,
       "ScannerIndex": 3
     },
     {
@@ -18321,7 +18479,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 371,
+      "DebugActionIndex": 374,
       "ScannerIndex": 3
     },
     {
@@ -18372,7 +18530,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 372,
+      "DebugActionIndex": 375,
       "ScannerIndex": 3
     },
     {
@@ -18423,7 +18581,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 373,
+      "DebugActionIndex": 376,
       "ScannerIndex": 3
     },
     {
@@ -18474,7 +18632,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 374,
+      "DebugActionIndex": 377,
       "ScannerIndex": 3
     },
     {
@@ -18525,7 +18683,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 375,
+      "DebugActionIndex": 378,
       "ScannerIndex": 3
     },
     {
@@ -18576,7 +18734,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 376,
+      "DebugActionIndex": 379,
       "ScannerIndex": 3
     },
     {
@@ -18627,7 +18785,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 377,
+      "DebugActionIndex": 380,
       "ScannerIndex": 3
     },
     {
@@ -18678,7 +18836,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 378,
+      "DebugActionIndex": 381,
       "ScannerIndex": 3
     },
     {
@@ -18729,7 +18887,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 379,
+      "DebugActionIndex": 382,
       "ScannerIndex": 3
     },
     {
@@ -18780,7 +18938,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 380,
+      "DebugActionIndex": 383,
       "ScannerIndex": 3
     },
     {
@@ -18831,7 +18989,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 381,
+      "DebugActionIndex": 384,
       "ScannerIndex": 3
     },
     {
@@ -18839,13 +18997,13 @@
       "DisplayName": "Writing 6070537824006410562.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 136381,
-      "PayloadLength": 23271,
+      "PayloadLength": 23502,
       "PayloadDebugContentSnippet": "qcL \"Library/Bee/artifacts/Web",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/6070537824006410562.rsp"
       ],
-      "DebugActionIndex": 382
+      "DebugActionIndex": 385
     },
     {
       "Annotation": "Lib_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a",
@@ -18903,6 +19061,7 @@
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6mv50snva3u4.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/r2ytg21sdr6n.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ci2hwbgqgfi7.o",
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dqmygrwokhzm.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/j3nlv8kgqbqt.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4ir9aizdtz1c.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/5qbqvxfcx1is.o",
@@ -18960,6 +19119,7 @@
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/upli1rkes4l9.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1unqv78vb2sq.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yvwefbvxkey2.o",
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kn3lanbnzxci.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/suyluhu8e5zu.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6yf63qbjtwxg.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/69h0ty3fidgn.o",
@@ -19019,6 +19179,7 @@
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hhuhh11vetg9.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/m8f8dh8r05o8.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ywubfvokqp1q.o",
+        "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8yd10y7ratvn.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/0x7vpwhqrrok.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/203u9x6t4s1b.o",
         "Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ulk6dwuia38k.o",
@@ -19480,7 +19641,10 @@
         379,
         380,
         381,
-        382
+        382,
+        383,
+        384,
+        385
       ],
       "OverwriteOutputs": false,
       "FrontendResponseFiles": [
@@ -19517,7 +19681,7 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 383
+      "DebugActionIndex": 386
     },
     {
       "Annotation": "CopyFiles C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.a",
@@ -19530,13 +19694,13 @@
         "C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.a"
       ],
       "ToBuildDependencies": [
-        383
-      ],
-      "ToUseDependencies": [
-        385,
         386
       ],
-      "DebugActionIndex": 384
+      "ToUseDependencies": [
+        388,
+        389
+      ],
+      "DebugActionIndex": 387
     },
     {
       "Annotation": "CopyFiles C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Metadata/global-metadata.dat",
@@ -19550,12 +19714,12 @@
       ],
       "ToBuildDependencies": [
         5,
-        386
+        389
       ],
       "ToUseDependencies": [
-        386
+        389
       ],
-      "DebugActionIndex": 385
+      "DebugActionIndex": 388
     },
     {
       "Annotation": "CopyFiles C:/Users/hunte/Desktop/SpellCraft2/SpellCraft2Unity/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/mscorlib.dll-resources.dat",
@@ -19570,20 +19734,20 @@
       "ToBuildDependencies": [
         5
       ],
-      "DebugActionIndex": 386
+      "DebugActionIndex": 389
     },
     {
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/8995565923215908413.rsp",
       "DisplayName": "Writing 8995565923215908413.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 159741,
+      "PayloadOffset": 159972,
       "PayloadLength": 14552,
       "PayloadDebugContentSnippet": "-s \"EXPORTED_RUNTIME_METHODS=[",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/8995565923215908413.rsp"
       ],
-      "DebugActionIndex": 387
+      "DebugActionIndex": 390
     },
     {
       "Annotation": "Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)",
@@ -19693,8 +19857,8 @@
         "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm"
       ],
       "ToBuildDependencies": [
-        384,
-        387
+        387,
+        390
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/rsp/8995565923215908413.rsp"
@@ -19730,20 +19894,20 @@
           "Value": "1"
         }
       ],
-      "DebugActionIndex": 388
+      "DebugActionIndex": 391
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/build.framework.js_mumr.info",
       "DisplayName": "Writing build.framework.js_mumr.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 174389,
+      "PayloadOffset": 174620,
       "PayloadLength": 626,
       "PayloadDebugContentSnippet": "{\"WebGLPlayerBuildProgram.Fram",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/build.framework.js_mumr.info"
       ],
-      "DebugActionIndex": 389
+      "DebugActionIndex": 392
     },
     {
       "Annotation": "FrameworkAssembler Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js",
@@ -19761,13 +19925,13 @@
         "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"
       ],
       "ToBuildDependencies": [
-        388,
-        389
+        391,
+        392
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 390
+      "DebugActionIndex": 393
     },
     {
       "Annotation": "CopyFiles C:/Users/hunte/Desktop/SpellCraft2/docs/Build/docs.framework.js",
@@ -19780,9 +19944,9 @@
         "C:/Users/hunte/Desktop/SpellCraft2/docs/Build/docs.framework.js"
       ],
       "ToBuildDependencies": [
-        390
+        393
       ],
-      "DebugActionIndex": 391
+      "DebugActionIndex": 394
     },
     {
       "Annotation": "CopyFiles C:/Users/hunte/Desktop/SpellCraft2/docs/Build/docs.wasm",
@@ -19795,9 +19959,9 @@
         "C:/Users/hunte/Desktop/SpellCraft2/docs/Build/docs.wasm"
       ],
       "ToBuildDependencies": [
-        388
+        391
       ],
-      "DebugActionIndex": 392
+      "DebugActionIndex": 395
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json",
@@ -19812,7 +19976,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 393
+      "DebugActionIndex": 396
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/MethodMap.tsv",
@@ -19827,20 +19991,20 @@
       "ToBuildDependencies": [
         5
       ],
-      "DebugActionIndex": 394
+      "DebugActionIndex": 397
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
       "DisplayName": "Writing webgl.data_qnm2.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 175103,
+      "PayloadOffset": 175334,
       "PayloadLength": 2037,
       "PayloadDebugContentSnippet": "{\"System.Collections.Generic.D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info"
       ],
-      "DebugActionIndex": 395
+      "DebugActionIndex": 398
     },
     {
       "Annotation": "Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data",
@@ -19867,12 +20031,12 @@
       "ToBuildDependencies": [
         2,
         5,
-        395
+        398
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 396
+      "DebugActionIndex": 399
     },
     {
       "Annotation": "CopyFiles C:/Users/hunte/Desktop/SpellCraft2/docs/Build/docs.data",
@@ -19885,9 +20049,9 @@
         "C:/Users/hunte/Desktop/SpellCraft2/docs/Build/docs.data"
       ],
       "ToBuildDependencies": [
-        396
+        399
       ],
-      "DebugActionIndex": 397
+      "DebugActionIndex": 400
     },
     {
       "Annotation": "PreprocessJS Library/Bee/artifacts/WebGLdocs.loader.js",
@@ -19901,7 +20065,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 398
+      "DebugActionIndex": 401
     },
     {
       "Annotation": "CopyFiles C:/Users/hunte/Desktop/SpellCraft2/docs/Build/docs.loader.js",
@@ -19914,9 +20078,9 @@
         "C:/Users/hunte/Desktop/SpellCraft2/docs/Build/docs.loader.js"
       ],
       "ToBuildDependencies": [
-        398
+        401
       ],
-      "DebugActionIndex": 399
+      "DebugActionIndex": 402
     },
     {
       "Annotation": "PreprocessJS C:/Users/hunte/Desktop/SpellCraft2/docs/index.html",
@@ -19930,7 +20094,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 400
+      "DebugActionIndex": 403
     },
     {
       "Annotation": "CopyFiles C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/favicon.ico",
@@ -19942,7 +20106,7 @@
       "Outputs": [
         "C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/favicon.ico"
       ],
-      "DebugActionIndex": 401
+      "DebugActionIndex": 404
     },
     {
       "Annotation": "CopyFiles C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/fullscreen-button.png",
@@ -19954,7 +20118,7 @@
       "Outputs": [
         "C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/fullscreen-button.png"
       ],
-      "DebugActionIndex": 402
+      "DebugActionIndex": 405
     },
     {
       "Annotation": "CopyFiles C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/MemoryProfiler.png",
@@ -19966,7 +20130,7 @@
       "Outputs": [
         "C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/MemoryProfiler.png"
       ],
-      "DebugActionIndex": 403
+      "DebugActionIndex": 406
     },
     {
       "Annotation": "CopyFiles C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/progress-bar-empty-dark.png",
@@ -19978,7 +20142,7 @@
       "Outputs": [
         "C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/progress-bar-empty-dark.png"
       ],
-      "DebugActionIndex": 404
+      "DebugActionIndex": 407
     },
     {
       "Annotation": "CopyFiles C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/progress-bar-empty-light.png",
@@ -19990,7 +20154,7 @@
       "Outputs": [
         "C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/progress-bar-empty-light.png"
       ],
-      "DebugActionIndex": 405
+      "DebugActionIndex": 408
     },
     {
       "Annotation": "CopyFiles C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/progress-bar-full-dark.png",
@@ -20002,7 +20166,7 @@
       "Outputs": [
         "C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/progress-bar-full-dark.png"
       ],
-      "DebugActionIndex": 406
+      "DebugActionIndex": 409
     },
     {
       "Annotation": "CopyFiles C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/progress-bar-full-light.png",
@@ -20014,7 +20178,7 @@
       "Outputs": [
         "C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/progress-bar-full-light.png"
       ],
-      "DebugActionIndex": 407
+      "DebugActionIndex": 410
     },
     {
       "Annotation": "PreprocessJS C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/style.css",
@@ -20028,7 +20192,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 408
+      "DebugActionIndex": 411
     },
     {
       "Annotation": "CopyFiles C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/unity-logo-dark.png",
@@ -20040,7 +20204,7 @@
       "Outputs": [
         "C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/unity-logo-dark.png"
       ],
-      "DebugActionIndex": 409
+      "DebugActionIndex": 412
     },
     {
       "Annotation": "CopyFiles C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/unity-logo-light.png",
@@ -20052,7 +20216,7 @@
       "Outputs": [
         "C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/unity-logo-light.png"
       ],
-      "DebugActionIndex": 410
+      "DebugActionIndex": 413
     },
     {
       "Annotation": "CopyFiles C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/webgl-logo.png",
@@ -20064,7 +20228,7 @@
       "Outputs": [
         "C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/webgl-logo.png"
       ],
-      "DebugActionIndex": 411
+      "DebugActionIndex": 414
     },
     {
       "Annotation": "CopyFiles C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/webmemd-icon.png",
@@ -20076,7 +20240,7 @@
       "Outputs": [
         "C:/Users/hunte/Desktop/SpellCraft2/docs/TemplateData/webmemd-icon.png"
       ],
-      "DebugActionIndex": 412
+      "DebugActionIndex": 415
     },
     {
       "Annotation": "Player",
@@ -20085,15 +20249,12 @@
       "Outputs": [],
       "ToBuildDependencies": [
         4,
-        384,
-        391,
-        392,
-        393,
+        387,
         394,
+        395,
+        396,
         397,
-        399,
         400,
-        401,
         402,
         403,
         404,
@@ -20104,10 +20265,13 @@
         409,
         410,
         411,
-        412
+        412,
+        413,
+        414,
+        415
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 413
+      "DebugActionIndex": 416
     }
   ],
   "FileSignatures": [
@@ -20475,7 +20639,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 413
+          "Player": 416
         }
 ,  "DefaultNodes": [
     0

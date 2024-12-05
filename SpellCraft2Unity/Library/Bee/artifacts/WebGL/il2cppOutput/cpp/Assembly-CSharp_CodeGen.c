@@ -20,8 +20,12 @@ extern void EnemyHealthDisplay_Start_mF3A5FE06D3302B4682B51A41C56DCC8B5494C1E9 (
 extern void EnemyHealthDisplay_UpdateHealthBar_m71CD709F06A4A72AFE9795E907054966E83C772F (void);
 extern void EnemyHealthDisplay__ctor_mF67FEE51CD1973DD21581CBAE72D710256147067 (void);
 extern void EnemyStats_Awake_m62610C22DADFC546373C320EACAEA3A5DAD6ADE9 (void);
+extern void EnemyStats_GetEnemyType_m5912CEA9A61F9E2C0D83BE1188A18A860DD76DD8 (void);
 extern void EnemyStats_GetRandomAttackDamage_m503C998088761763F28A228C2929A942E16381B3 (void);
-extern void EnemyStats_TakeDamage_m7F21BCC34D9EB65C7D7569AA50B45B67AC666106 (void);
+extern void EnemyStats_TakeDamage_m8BC2B46A0CB0600DB0238664C64CF7BBF2EA61DA (void);
+extern void EnemyStats_IncrementDamage_m0A921B6EBE29D2B0C153EA1A6A19519F70802DFD (void);
+extern void EnemyStats_UpdateDamageText_m5BAB8850E73139648E8E0C8C5C458643CEDD4C68 (void);
+extern void EnemyStats_GetDamageMultiplier_m2A6EF064F4465F0CBC3C859329DF73ED4E8D9EA1 (void);
 extern void EnemyStats_Die_m25EE1C9C2924B780A49B6F3769DEF1B5E6513F4D (void);
 extern void EnemyStats_UnlockNewLevel_m812C1BC26A35FC66890A7C12AD276C4C20454285 (void);
 extern void EnemyStats__ctor_m85B14BDE8F9F028F0C3207CEFA344713B3EC051F (void);
@@ -64,7 +68,7 @@ extern void WandEffectScript_Update_m8A5A97DBFC4B1D70D25906A451A70AEB425DC939 (v
 extern void WandEffectScript__ctor_m77AC59E86AA956250F8569D940209EFB8D7DF003 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[52] = 
+static Il2CppMethodPointer s_methodPointers[56] = 
 {
 	CardClickHandler_Start_m3E15A4FE6A8D8C697633139010DB9990B26FFF4E,
 	CardClickHandler_OnMouseDown_mBCC2F2F624C63B08BEE135D95D628B276326C3B2,
@@ -74,8 +78,12 @@ static Il2CppMethodPointer s_methodPointers[52] =
 	EnemyHealthDisplay_UpdateHealthBar_m71CD709F06A4A72AFE9795E907054966E83C772F,
 	EnemyHealthDisplay__ctor_mF67FEE51CD1973DD21581CBAE72D710256147067,
 	EnemyStats_Awake_m62610C22DADFC546373C320EACAEA3A5DAD6ADE9,
+	EnemyStats_GetEnemyType_m5912CEA9A61F9E2C0D83BE1188A18A860DD76DD8,
 	EnemyStats_GetRandomAttackDamage_m503C998088761763F28A228C2929A942E16381B3,
-	EnemyStats_TakeDamage_m7F21BCC34D9EB65C7D7569AA50B45B67AC666106,
+	EnemyStats_TakeDamage_m8BC2B46A0CB0600DB0238664C64CF7BBF2EA61DA,
+	EnemyStats_IncrementDamage_m0A921B6EBE29D2B0C153EA1A6A19519F70802DFD,
+	EnemyStats_UpdateDamageText_m5BAB8850E73139648E8E0C8C5C458643CEDD4C68,
+	EnemyStats_GetDamageMultiplier_m2A6EF064F4465F0CBC3C859329DF73ED4E8D9EA1,
 	EnemyStats_Die_m25EE1C9C2924B780A49B6F3769DEF1B5E6513F4D,
 	EnemyStats_UnlockNewLevel_m812C1BC26A35FC66890A7C12AD276C4C20454285,
 	EnemyStats__ctor_m85B14BDE8F9F028F0C3207CEFA344713B3EC051F,
@@ -122,68 +130,72 @@ static Il2CppMethodPointer s_methodPointers[52] =
 extern void Spell__ctor_mDF9B54CBE11793D2056EBB1FB4FBAD6ADA0548D9_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] = 
 {
-	{ 0x0600002E, Spell__ctor_mDF9B54CBE11793D2056EBB1FB4FBAD6ADA0548D9_AdjustorThunk },
+	{ 0x06000032, Spell__ctor_mDF9B54CBE11793D2056EBB1FB4FBAD6ADA0548D9_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[52] = 
+static const int32_t s_InvokerIndices[56] = 
 {
-	4451,
-	4451,
-	4451,
-	4451,
-	4451,
-	4451,
-	4451,
-	4451,
-	4326,
-	3558,
-	4451,
-	4451,
-	4451,
-	4451,
-	4451,
-	4451,
-	4451,
-	4451,
-	4451,
-	4451,
-	4451,
-	4451,
-	4451,
-	4451,
-	4451,
-	3558,
-	4451,
-	4451,
-	4451,
-	4451,
-	4451,
-	4451,
-	3583,
-	3583,
-	4451,
-	6366,
-	4451,
-	3583,
-	3583,
-	4451,
-	3699,
-	4451,
-	4451,
-	4451,
-	4451,
-	1000,
-	4451,
-	4451,
-	4451,
-	4451,
-	6402,
-	4451,
+	4460,
+	4460,
+	4460,
+	4460,
+	4460,
+	4460,
+	4460,
+	4460,
+	4446,
+	4335,
+	1847,
+	4460,
+	4460,
+	3212,
+	4460,
+	4460,
+	4460,
+	4460,
+	4460,
+	4460,
+	4460,
+	4460,
+	4460,
+	4460,
+	4460,
+	4460,
+	4460,
+	4460,
+	4460,
+	3567,
+	4460,
+	4460,
+	4460,
+	4460,
+	4460,
+	4460,
+	3592,
+	3592,
+	4460,
+	6370,
+	4460,
+	3592,
+	3592,
+	4460,
+	3708,
+	4460,
+	4460,
+	4460,
+	4460,
+	1007,
+	4460,
+	4460,
+	4460,
+	4460,
+	6406,
+	4460,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	52,
+	56,
 	s_methodPointers,
 	1,
 	s_adjustorThunks,

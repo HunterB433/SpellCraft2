@@ -19027,7 +19027,7 @@ IL_018b:
 		VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_91 = ___0_toFill;
 		VertexHelper_Clear_mB19E51AD5AF1C04CB2C6E6A272D032D651EC40F5(L_91, NULL);
 		V_7 = 0;
-		goto IL_02f8;
+		goto IL_0352;
 	}
 
 IL_020e:
@@ -19035,7 +19035,7 @@ IL_020e:
 		int32_t L_92 = V_7;
 		V_8 = ((int32_t)il2cpp_codegen_add(L_92, 1));
 		V_9 = 0;
-		goto IL_02ea;
+		goto IL_0344;
 	}
 
 IL_021c:
@@ -19057,7 +19057,7 @@ IL_021c:
 		int32_t L_95 = V_9;
 		if ((((int32_t)L_95) == ((int32_t)1)))
 		{
-			goto IL_02e4;
+			goto IL_033e;
 		}
 	}
 
@@ -19065,74 +19065,100 @@ IL_0231:
 	{
 		int32_t L_96 = V_9;
 		V_10 = ((int32_t)il2cpp_codegen_add(L_96, 1));
-		VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_97 = ___0_toFill;
 		il2cpp_codegen_runtime_class_init_inline(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var);
-		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_98 = ((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields*)il2cpp_codegen_static_fields_for(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var))->___s_VertScratch;
-		int32_t L_99 = V_7;
-		float L_100 = ((L_98)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_99)))->___x;
-		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_101 = ((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields*)il2cpp_codegen_static_fields_for(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var))->___s_VertScratch;
-		int32_t L_102 = V_9;
-		float L_103 = ((L_101)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_102)))->___y;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_104;
-		memset((&L_104), 0, sizeof(L_104));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_104), L_100, L_103, NULL);
-		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_105 = ((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields*)il2cpp_codegen_static_fields_for(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var))->___s_VertScratch;
-		int32_t L_106 = V_8;
-		float L_107 = ((L_105)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_106)))->___x;
-		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_108 = ((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields*)il2cpp_codegen_static_fields_for(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var))->___s_VertScratch;
-		int32_t L_109 = V_10;
-		float L_110 = ((L_108)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_109)))->___y;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_111;
-		memset((&L_111), 0, sizeof(L_111));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_111), L_107, L_110, NULL);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_112;
-		L_112 = VirtualFuncInvoker0< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(22, __this);
-		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_113;
-		L_113 = Color32_op_Implicit_m79AF5E0BDE9CE041CAC4D89CBFA66E71C6DD1B70_inline(L_112, NULL);
-		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_114 = ((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields*)il2cpp_codegen_static_fields_for(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var))->___s_UVScratch;
-		int32_t L_115 = V_7;
-		float L_116 = ((L_114)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_115)))->___x;
-		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_117 = ((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields*)il2cpp_codegen_static_fields_for(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var))->___s_UVScratch;
-		int32_t L_118 = V_9;
-		float L_119 = ((L_117)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_118)))->___y;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_120;
-		memset((&L_120), 0, sizeof(L_120));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_120), L_116, L_119, NULL);
-		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_121 = ((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields*)il2cpp_codegen_static_fields_for(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var))->___s_UVScratch;
-		int32_t L_122 = V_8;
-		float L_123 = ((L_121)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_122)))->___x;
-		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_124 = ((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields*)il2cpp_codegen_static_fields_for(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var))->___s_UVScratch;
-		int32_t L_125 = V_10;
-		float L_126 = ((L_124)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_125)))->___y;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_127;
-		memset((&L_127), 0, sizeof(L_127));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_127), L_123, L_126, NULL);
-		Image_AddQuad_m39CF7AAE0605E563F3D0C6CE62639E44BCAACA42(L_97, L_104, L_111, L_113, L_120, L_127, NULL);
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_97 = ((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields*)il2cpp_codegen_static_fields_for(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var))->___s_VertScratch;
+		int32_t L_98 = V_8;
+		float L_99 = ((L_97)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_98)))->___x;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_100 = ((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields*)il2cpp_codegen_static_fields_for(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var))->___s_VertScratch;
+		int32_t L_101 = V_7;
+		float L_102 = ((L_100)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_101)))->___x;
+		if ((((float)((float)il2cpp_codegen_subtract(L_99, L_102))) <= ((float)(0.0f))))
+		{
+			goto IL_033e;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var);
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_103 = ((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields*)il2cpp_codegen_static_fields_for(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var))->___s_VertScratch;
+		int32_t L_104 = V_10;
+		float L_105 = ((L_103)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_104)))->___y;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_106 = ((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields*)il2cpp_codegen_static_fields_for(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var))->___s_VertScratch;
+		int32_t L_107 = V_9;
+		float L_108 = ((L_106)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_107)))->___y;
+		if ((((float)((float)il2cpp_codegen_subtract(L_105, L_108))) <= ((float)(0.0f))))
+		{
+			goto IL_033e;
+		}
+	}
+	{
+		VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_109 = ___0_toFill;
+		il2cpp_codegen_runtime_class_init_inline(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var);
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_110 = ((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields*)il2cpp_codegen_static_fields_for(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var))->___s_VertScratch;
+		int32_t L_111 = V_7;
+		float L_112 = ((L_110)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_111)))->___x;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_113 = ((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields*)il2cpp_codegen_static_fields_for(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var))->___s_VertScratch;
+		int32_t L_114 = V_9;
+		float L_115 = ((L_113)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_114)))->___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_116;
+		memset((&L_116), 0, sizeof(L_116));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_116), L_112, L_115, NULL);
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_117 = ((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields*)il2cpp_codegen_static_fields_for(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var))->___s_VertScratch;
+		int32_t L_118 = V_8;
+		float L_119 = ((L_117)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_118)))->___x;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_120 = ((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields*)il2cpp_codegen_static_fields_for(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var))->___s_VertScratch;
+		int32_t L_121 = V_10;
+		float L_122 = ((L_120)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_121)))->___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_123;
+		memset((&L_123), 0, sizeof(L_123));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_123), L_119, L_122, NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_124;
+		L_124 = VirtualFuncInvoker0< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(22, __this);
+		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_125;
+		L_125 = Color32_op_Implicit_m79AF5E0BDE9CE041CAC4D89CBFA66E71C6DD1B70_inline(L_124, NULL);
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_126 = ((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields*)il2cpp_codegen_static_fields_for(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var))->___s_UVScratch;
+		int32_t L_127 = V_7;
+		float L_128 = ((L_126)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_127)))->___x;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_129 = ((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields*)il2cpp_codegen_static_fields_for(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var))->___s_UVScratch;
+		int32_t L_130 = V_9;
+		float L_131 = ((L_129)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_130)))->___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_132;
+		memset((&L_132), 0, sizeof(L_132));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_132), L_128, L_131, NULL);
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_133 = ((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields*)il2cpp_codegen_static_fields_for(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var))->___s_UVScratch;
+		int32_t L_134 = V_8;
+		float L_135 = ((L_133)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_134)))->___x;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_136 = ((Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields*)il2cpp_codegen_static_fields_for(Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_il2cpp_TypeInfo_var))->___s_UVScratch;
+		int32_t L_137 = V_10;
+		float L_138 = ((L_136)->GetAddressAtUnchecked(static_cast<il2cpp_array_size_t>(L_137)))->___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_139;
+		memset((&L_139), 0, sizeof(L_139));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_139), L_135, L_138, NULL);
+		Image_AddQuad_m39CF7AAE0605E563F3D0C6CE62639E44BCAACA42(L_109, L_116, L_123, L_125, L_132, L_139, NULL);
 	}
 
-IL_02e4:
+IL_033e:
 	{
-		int32_t L_128 = V_9;
-		V_9 = ((int32_t)il2cpp_codegen_add(L_128, 1));
+		int32_t L_140 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_140, 1));
 	}
 
-IL_02ea:
+IL_0344:
 	{
-		int32_t L_129 = V_9;
-		if ((((int32_t)L_129) < ((int32_t)3)))
+		int32_t L_141 = V_9;
+		if ((((int32_t)L_141) < ((int32_t)3)))
 		{
 			goto IL_021c;
 		}
 	}
 	{
-		int32_t L_130 = V_7;
-		V_7 = ((int32_t)il2cpp_codegen_add(L_130, 1));
+		int32_t L_142 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_142, 1));
 	}
 
-IL_02f8:
+IL_0352:
 	{
-		int32_t L_131 = V_7;
-		if ((((int32_t)L_131) < ((int32_t)3)))
+		int32_t L_143 = V_7;
+		if ((((int32_t)L_143) < ((int32_t)3)))
 		{
 			goto IL_020e;
 		}

@@ -31,24 +31,21 @@ public class CardClickHandler : MonoBehaviour
         }
     }
 
-    void OnMouseDown()
+    private void OnMouseDown()
     {
         if (spellComponent != null && enemyStats != null && playerStats != null)
         {
-            // Player attacks the enemy
-            enemyStats.TakeDamage(spellComponent.power);
+            // Player attacks the enemy with a spell
+            enemyStats.TakeDamage(spellComponent.power, spellComponent.typeChar);
 
             // If the enemy is alive, it attacks back
             if (enemyStats.currentHealth > 0)
             {
                 // Generate random damage
-                int damage = enemyStats.GetRandomAttackDamage(); 
+                int damage = enemyStats.GetRandomAttackDamage();
                 // Apply damage to the player
                 playerStats.TakeDamage(damage);
                 Debug.Log($"Enemy attacked back, dealing {damage} damage to the player!");
-
-                // ================================== Check if player health is <= 0 game over and send them to the 0 scene
-                //if(playerStats.)
             }
         }
     }

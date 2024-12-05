@@ -16,6 +16,9 @@ public class LevelSelector : MonoBehaviour
     {
         int unlockedLevel = PlayerPrefs.GetInt("UnlockedLevel", 1);
 
+        Debug.Log($"ReachedIndex: {PlayerPrefs.GetInt("ReachedIndex")}, UnlockedLevel: {PlayerPrefs.GetInt("UnlockedLevel")}");
+
+
         //first set all the buttons to un-interactable
         for (int i = 0; i < buttons.Length; i++)
         {

@@ -1,0 +1,50 @@
+1. Stepping through the Portal
+
+Stepping through the swirling portal, you feel a rush of cold air and a disorienting pull, as though reality itself twists and bends around you. When the world settles, you find yourself in a dimly lit chamber, its walls carved from ancient stone and glowing faintly with magical sigils.
+
+You glance down at the map in your hand. The parchment shimmers as four distinct squares light up, scattered across its surface. Eldrin leans over, studying the glowing indicators.
+
+“These squares represent nearby foes,” he explains, tapping the map. “Each one marks the location of an enemy within this part of the dungeon. The map will continue to guide us, but for now, we should focus on these.”
+
+He straightens, his tone calm but firm. “We’ll tackle them one at a time. This will be a good opportunity for me to teach you how to use your spells effectively in combat. Stick close, and follow my lead.”
+
+-
+
+1. Entering the Room
+As you step into the icy chamber, a chill seeps into your bones. Frost clings to the walls, and in the center of the room, a massive ice rat bares its jagged, frozen teeth.
+
+“Egads!” Eldrin exclaims, stepping back. “A frost vermin! Careful it may look small, but it can pack quite the punch.”
+
+2. Explaining Health
+Eldrin raises a hand, stopping you before you cast. “Listen carefully,” he says. “After each spell you cast, the enemy will strike back. Take too much damage, and we’ll have to retreat. Stay sharp!”
+
+3. Explaining Enemy Health
+He points at the ice rat, its form shimmering slightly with magical energy. “Every foe has its limits,” Eldrin explains. “Strike it enough times with your spells, and you’ll weaken it until it can fight no more. That’s how we’ll move forward.”
+
+4. Selecting a Spell
+Eldrin nods toward your cards. “To cast a spell, choose one of your cards. Ready it in your mind, and click on it when you’re sure of your target. The power is in your hands.”
+
+5. Timing the Spell
+“Timing is everything,” Eldrin adds, holding up his wand. “Don’t cast until the sparks reach the very tip of the wand. That’s when your spell will be at its strongest!”
+
+-
+
+1. Magma vs. Ice
+Eldrin gestures toward the icy sheen covering the rat. “Ice creatures like this one are brittle, vulnerable to intense heat. A magma spell can shatter their defenses, doing far more damage than usual. Use Incendius to melt their resolve and leave them powerless.”
+
+2. Ice vs. Earth
+Eldrin points to the jagged and rocky enemy. “Earth-based enemies are sturdy, but their rigidity is their weakness. The power of ice can freeze and crack their hardened forms. Spells like Tidal Cataclysm exploit this flaw, rendering even the toughest foes vulnerable.”
+
+3. Earth vs. Chaos
+Eldrin narrows his gaze at the chaotic, shifting energy of the next enemy. “Chaos thrives on instability, but the raw force of earth can ground it. Spells like World Shaker disrupt the flow of chaotic energy, bringing it to a halt with sheer weight and force. Rock Solid!”
+
+4. Chaos vs. Magma
+Eldrin observes the fiery aura of a magma-based foe, its energy pulsating dangerously. “Fire feeds on predictability, consuming everything in its path. Chaos, however, is unpredictable and disruptive. Use spells like Call of the Void to destabilize magma-based enemies, extinguishing their flames before they grow out of control.”
+
+The room twists with swirling shadows, its air charged with chaotic energy. At the center looms a massive chaos rat, its glowing purple eyes fixed on you. Behind it, a figure cowers against the wall—robes tattered and frost clinging to his trembling hands.
+
+“Professor Frostbane!” Eldrin exclaims. “The Ice Professor! What are you doing here?”
+
+“I... I came to investigate the disturbance,” Frostbane stammers, “but this beast ambushed me!”
+
+Eldrin’s gaze hardens as he turns to you. “We must act swiftly. Chaos creatures are unpredictable, but they can be defeated. Ready your spells—we fight to save him!”

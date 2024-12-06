@@ -5,6 +5,7 @@ public class CardClickHandler : MonoBehaviour
     private SpellComponent spellComponent; // Spell attributes (damage, type, etc.)
     private EnemyStats enemyStats;         // Reference to the enemy's stats
     private PlayerStats playerStats;       // Reference to the player's stats
+    private WandEffectScript wandStats;
 
     private void Start()
     {
@@ -29,6 +30,13 @@ public class CardClickHandler : MonoBehaviour
         {
             Debug.LogError("PlayerStats not found in the scene!");
         }
+
+        wandStats = FindObjectOfType<WandEffectScript>();
+
+        if (wandStats == null)
+        {
+            Debug.LogError("No wand found!");
+        }
     }
 
     private void OnMouseDown()
@@ -36,7 +44,7 @@ public class CardClickHandler : MonoBehaviour
         if (spellComponent != null && enemyStats != null && playerStats != null)
         {
             // Player attacks the enemy with a spell
-            enemyStats.TakeDamage(spellComponent.power, spellComponent.typeChar);
+            enemyStats.TakeDamage(spellComponent.power, spellComponent.typeChar, wandStats.effectValue);
 
             // If the enemy is alive, it attacks back
             if (enemyStats.currentHealth > 0)

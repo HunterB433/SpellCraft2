@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\Library\\PackageCache\\com.unity.collab-proxy@2.6.0\\Editor\\ViewSwitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.collab-proxy@2.6.0\\Editor\\ViewSwitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C3AA49-98B5-DC31-6AC3-4BECE1A6EBE7}|Assembly-CSharp.csproj|c:\\users\\hunte\\desktop\\spellcraft2\\spellcraft2unity\\assets\\scripts\\enemystats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C3AA49-98B5-DC31-6AC3-4BECE1A6EBE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemystats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C3AA49-98B5-DC31-6AC3-4BECE1A6EBE7}|Assembly-CSharp.csproj|C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\assets\\scripts\\cardclickhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C3AA49-98B5-DC31-6AC3-4BECE1A6EBE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cardclickhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C3AA49-98B5-DC31-6AC3-4BECE1A6EBE7}|Assembly-CSharp.csproj|C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\assets\\scripts\\wandeffectscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C3AA49-98B5-DC31-6AC3-4BECE1A6EBE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wandeffectscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C3AA49-98B5-DC31-6AC3-4BECE1A6EBE7}|Assembly-CSharp.csproj|C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\assets\\scripts\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C3AA49-98B5-DC31-6AC3-4BECE1A6EBE7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewSwitcher.cs",
+              "DocumentMoniker": "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\Library\\PackageCache\\com.unity.collab-proxy@2.6.0\\Editor\\ViewSwitcher.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.collab-proxy@2.6.0\\Editor\\ViewSwitcher.cs",
+              "ToolTip": "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\Library\\PackageCache\\com.unity.collab-proxy@2.6.0\\Editor\\ViewSwitcher.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.collab-proxy@2.6.0\\Editor\\ViewSwitcher.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAiwMwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:14:43.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CardClickHandler.cs",
+              "DocumentMoniker": "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\Assets\\Scripts\\CardClickHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CardClickHandler.cs",
+              "ToolTip": "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\Assets\\Scripts\\CardClickHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CardClickHandler.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAADwvx0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:12:16.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyStats.cs",
+              "DocumentMoniker": "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\Assets\\Scripts\\EnemyStats.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyStats.cs",
+              "ToolTip": "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\Assets\\Scripts\\EnemyStats.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyStats.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAcwHEAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:11:31.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerStats.cs",
+              "DocumentMoniker": "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\Assets\\Scripts\\PlayerStats.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerStats.cs",
+              "ToolTip": "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\Assets\\Scripts\\PlayerStats.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerStats.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:11:09.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WandEffectScript.cs",
+              "DocumentMoniker": "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\Assets\\Scripts\\WandEffectScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WandEffectScript.cs",
+              "ToolTip": "C:\\Users\\hunte\\Desktop\\SpellCraft2\\SpellCraft2Unity\\Assets\\Scripts\\WandEffectScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WandEffectScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:05:53.327Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -44,6 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e487613df079af44988c221bce256300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneController: {fileID: 0}
+  otherCanvas: {fileID: 0}
   PopupPane: {fileID: 0}
   tempImage: {fileID: 0}
   dialogueText: {fileID: 0}
@@ -51,7 +53,26 @@ MonoBehaviour:
   nextButton: {fileID: 0}
   playGuideButton: {fileID: 0}
   startButton: {fileID: 0}
-  ToBeTitle: 
-  images: []
-  messages: []
-  imageIndices: 
+  ToBeTitle: Inside The Library
+  InstaPlay: 1
+  InstaSkip: 1
+  images:
+  - {fileID: 21300000, guid: 891d1fa4ec0a1ec49a78471546dac36e, type: 3}
+  - {fileID: 21300000, guid: 4c91fcf7cde4aac4aaafc26212fd8aba, type: 3}
+  messages:
+  - "Eldrin leads you into the spell library, a vast chamber filled with towering
+    shelves of glowing tomes and artifacts. Magical orbs float gently in the air,
+    illuminating the room in soft, shifting hues.  \u201CHere,\u201D Eldrin says,
+    gesturing to a table where a small selection of spell cards lies waiting. \u201CThese
+    will be your tools in the dungeon. Each card carries immense power, but it must
+    be wielded with precision.\u201D"
+  - "Eldrin picks up the first card, its surface pulsing with fiery red energy. \u201CThis
+    is Incendius, a spell of magma and destruction. It can melt through even the
+    sturdiest defenses.\u201D  Next, he lifts a frosty blue card. \u201CTidal Cataclysm,
+    a spell of ice and crushing tides. It freezes enemies in their tracks.\u201D 
+    The third card exudes a shadowy aura. \u201CCall of the Void, chaos incarnate.
+    It draws power from the unknown to devastate your foes.\u201D  Finally, he holds
+    a card etched with deep earthen tones. \u201CAnd World Shaker, a spell of earth
+    and upheaval. It will ground even the fiercest of opponents.\u201D  He sets the
+    cards before you. \u201CStudy these well. They are your key to survival.\u201D"
+  imageIndices: 0000000001000000

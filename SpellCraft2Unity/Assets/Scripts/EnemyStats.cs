@@ -35,7 +35,7 @@ public class EnemyStats : MonoBehaviour
         return Random.Range(minAttackDamage, maxAttackDamage + 1);
     }
 
-    public void TakeDamage(int damage, char spellType)
+    public void TakeDamage(int damage, char spellType, float multiplerWand)
     {
         // Check for elemental weakness and apply multiplier
         float multiplier = GetDamageMultiplier(spellType);
@@ -47,7 +47,7 @@ public class EnemyStats : MonoBehaviour
         }
 
         // Calculate final damage
-        int finalDamage = Mathf.RoundToInt(damage * multiplier);
+        int finalDamage = Mathf.RoundToInt(damage * multiplier * multiplerWand);
         currentHealth -= finalDamage;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
 

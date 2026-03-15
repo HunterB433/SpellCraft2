@@ -735,6 +735,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: PopUpCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 3880424933089619088, guid: b3bc80997a56d5247a09391a90068478, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880424933089619088, guid: b3bc80997a56d5247a09391a90068478, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880424933089619088, guid: b3bc80997a56d5247a09391a90068478, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 5736199900726335023, guid: b3bc80997a56d5247a09391a90068478, type: 3}
       propertyPath: m_Pivot.x
       value: 0

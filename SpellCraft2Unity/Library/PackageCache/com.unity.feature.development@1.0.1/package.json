@@ -4,7 +4,7 @@
   "version": "1.0.1",
   "type": "feature",
   "_upm": {
-    "quickstart": "https://docs.unity3d.com/2021.2/Documentation/Manual/DeveloperToolsFeature.html"
+    "quickstart": "https://docs.unity3d.com/2022.3/Documentation/Manual/DeveloperToolsFeature.html"
   },
   "description": "Optimize your development experience in Unity with the Dev Tools feature set. Enable support for multiple integrated development environments (IDE) for editing your Unity code. Get access to development tools to help you test and analyze your project’s performance.",
   "dependencies": {

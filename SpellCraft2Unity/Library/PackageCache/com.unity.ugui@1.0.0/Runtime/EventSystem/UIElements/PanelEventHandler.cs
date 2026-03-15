@@ -449,7 +449,14 @@ namespace UnityEngine.UIElements
                 int eventDisplayIndex = (int)eventPosition.z;
 
                 if (eventDisplayIndex > 0 && eventDisplayIndex < Display.displays.Length)
+                {
+#if UNITY_ANDROID
+                    // Changed for UITK to be coherent for Android which passes display relative rendering coordinates
+                    h = Display.displays[eventDisplayIndex].renderingHeight;
+#else
                     h = Display.displays[eventDisplayIndex].systemHeight;
+#endif
+                }
 
                 var delta = eventData.delta;
                 eventPosition.y = h - eventPosition.y;
